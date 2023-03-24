@@ -11463,10 +11463,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 #section-693fcf00-f730-4d47-9867-6de5622a86cd .Button {
   border: none !important;
+  padding: 1rem 5rem;
 }
 
 #section-693fcf00-f730-4d47-9867-6de5622a86cd .Button::before {
     background-color: #233f41 !important;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
