@@ -11461,6 +11461,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 }
 
-h1, h2, h3, a {
+h1 {
   font-family: "Made" !important;
 }
