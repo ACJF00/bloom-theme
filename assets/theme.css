@@ -11460,4 +11460,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     margin-top: 65px;
   }
 }
+.Button::before {
+    background-color: #233f41 !important;
+    border-radius: 20px;
+}
 
