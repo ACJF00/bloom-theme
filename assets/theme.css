@@ -18,7 +18,7 @@ CUSTOM COM BY HUGO
 **/
 
 @font-face {
-font-family: "Font name";src: url({{ "made_gentle" | "MADE Gentle PERSONAL USE.otf" }}) format("TrueType")};
+font-family: "Font name";src: url({{ "Made Gentle" | MADE-Gentle-PERSONAL-USE.woff }}) format("TrueType")};
 
 
 a.Link.Link--underline {
