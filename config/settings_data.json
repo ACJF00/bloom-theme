@@ -41,9 +41,9 @@
     "cart_enable_notes": true,
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "60",
-    "social_instagram": "https://www.instagram.com/bloomfr_/",
-    "favicon": "shopify://shop_images/logo_seul_2x_3bc44346-9915-4fe7-ad63-f9810f01f1a8.png",
-    "checkout_logo_image": "shopify://shop_images/Paiements_100_securise_1.png",
+    "social_instagram": "https:\/\/www.instagram.com\/bloomfr_\/",
+    "favicon": "shopify:\/\/shop_images\/logo_seul_2x_3bc44346-9915-4fe7-ad63-f9810f01f1a8.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Paiements_100_securise_1.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#f4f5f4",
@@ -69,15 +69,15 @@
           "home_page_only": false,
           "background": "#ffc8b0",
           "text_color": "#ffffff",
-          "content": "On t'offre la livraison à partir de 60€ d'achat ! 🎁",
-          "link": "shopify://collections/selection-de-noel"
+          "content": "On t'offre la livraison à partir de 70€ d'achat ! 🎁",
+          "link": "shopify:\/\/collections\/selection-de-noel"
         }
       },
       "header": {
         "type": "header",
         "settings": {
           "use_sticky_header": true,
-          "logo": "shopify://shop_images/logo-bloom-final.png",
+          "logo": "shopify:\/\/shop_images\/logo-bloom-final.png",
           "logo_max_width": 75,
           "mobile_logo_max_width": 65,
           "show_currency_selector": true,
@@ -94,12 +94,17 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-1": { "type": "links", "settings": { "menu": "footer" } },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
           "f126e8cc-c260-49e6-8969-e5f06d05dbee": {
             "type": "text",
             "settings": {
               "title": "N'hésite pas à nous contacter 🥰:",
-              "content": "<p>info@wearebloom.eu</p>",
+              "content": "<p>info@wearebloom.eu<\/p>",
               "show_social_media": true
             }
           },
@@ -107,7 +112,7 @@
             "type": "newsletter",
             "settings": {
               "title": "Newsletter",
-              "content": "<p>N'hésitez pas à vous inscrire à la newletter pour recevoir les futurs nouveautés et promotions!</p>"
+              "content": "<p>N'hésitez pas à vous inscrire à la newletter pour recevoir les futurs nouveautés et promotions!<\/p>"
             }
           }
         },
@@ -129,23 +134,23 @@
           "slide-1": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Slider-desktop3_8dabd3ef-bb97-432e-a744-ce5fe66b7db2.jpg",
-              "mobile_image": "shopify://shop_images/Slider-mobile2_f43b148e-2274-40dc-9262-fbe5c13bf10d.jpg",
+              "image": "shopify:\/\/shop_images\/Slider-desktop3_8dabd3ef-bb97-432e-a744-ce5fe66b7db2.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Slider-mobile2_f43b148e-2274-40dc-9262-fbe5c13bf10d.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "",
               "button_1_text": "",
-              "button_1_link": "shopify://collections/vedette",
+              "button_1_link": "shopify:\/\/collections\/vedette",
               "button_2_text": "je découvre encore plus",
-              "button_2_link": "shopify://collections/vedette"
+              "button_2_link": "shopify:\/\/collections\/vedette"
             }
           },
           "205a15a2-54da-45df-8714-18e1c5d4fe8b": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Slider-desktop-fdm_aa112d66-6cb9-488e-bbc5-f6a78c35ec7e.jpg",
-              "mobile_image": "shopify://shop_images/Slider-mobile-fdm_e1d035ea-04b0-4411-adae-cb3a439698ce.jpg",
+              "image": "shopify:\/\/shop_images\/Slider-desktop-fdm_aa112d66-6cb9-488e-bbc5-f6a78c35ec7e.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Slider-mobile-fdm_e1d035ea-04b0-4411-adae-cb3a439698ce.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -155,7 +160,10 @@
             }
           }
         },
-        "block_order": ["slide-1", "205a15a2-54da-45df-8714-18e1c5d4fe8b"],
+        "block_order": [
+          "slide-1",
+          "205a15a2-54da-45df-8714-18e1c5d4fe8b"
+        ],
         "settings": {
           "show_fullscreen": true,
           "show_arrow": false,
@@ -180,7 +188,9 @@
             }
           }
         },
-        "block_order": ["featured-collection-0"],
+        "block_order": [
+          "featured-collection-0"
+        ],
         "settings": {
           "title": "",
           "layout_mode": "carousel",
@@ -232,7 +242,11 @@
             }
           }
         },
-        "block_order": ["collection-0", "collection-1", "collection-2"],
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2"
+        ],
         "settings": {
           "image_size": "normal",
           "add_spacing": true,
@@ -272,47 +286,60 @@
           "item-1": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/2000x2000madeinFr.jpg",
+              "image": "shopify:\/\/shop_images\/2000x2000madeinFr.jpg",
               "apply_overlay": true,
               "title": "français",
               "subheading": "",
               "heading": "Du made in France... enfin !",
-              "content": "<p>Nous sommes les premiers à proposer de l&#x27;encens français ! Un peu de chauvinisme ça fait pas de mal, non ? </p><p>Tous nos bâtonnets d&#x27;encens sont fabriqués dans notre atelier <strong>au coeur des Pyrenées</strong>, à Tarbes.</p><p>Cerise sur le gâteau, <strong>le packaging est également européen </strong>! </p><p></p><p></p><p> </p>"
+              "content": "<p>Nous sommes les premiers à proposer de l&#x27;encens français ! Un peu de chauvinisme ça fait pas de mal, non ? <\/p><p>Tous nos bâtonnets d&#x27;encens sont fabriqués dans notre atelier <strong>au coeur des Pyrenées<\/strong>, à Tarbes.<\/p><p>Cerise sur le gâteau, <strong>le packaging est également européen <\/strong>! <\/p><p><\/p><p><\/p><p> <\/p>"
             }
           },
           "item-2": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/naturel_0fea6888-9d8f-43da-a6b2-35b6eb1c6f5f.jpg",
+              "image": "shopify:\/\/shop_images\/naturel_0fea6888-9d8f-43da-a6b2-35b6eb1c6f5f.jpg",
               "apply_overlay": true,
               "title": "naturel",
               "subheading": "",
               "heading": "100% naturel.",
-              "content": "<p>Un mot d&#x27;ordre ; la <strong>transparence.</strong></p><p>Pas d&#x27;intitulé mystique ou de composition opaque chez Bloom ; nous utilisons des matières <strong>100% naturelles </strong>triées sur le volet.</p><p>Du bois, des huiles essentielles, des épices, de la résine... et <strong>c&#x27;est tout ! </strong></p><p>Ah non, un peu d&#x27;eau aussi... </p>"
+              "content": "<p>Un mot d&#x27;ordre ; la <strong>transparence.<\/strong><\/p><p>Pas d&#x27;intitulé mystique ou de composition opaque chez Bloom ; nous utilisons des matières <strong>100% naturelles <\/strong>triées sur le volet.<\/p><p>Du bois, des huiles essentielles, des épices, de la résine... et <strong>c&#x27;est tout ! <\/strong><\/p><p>Ah non, un peu d&#x27;eau aussi... <\/p>"
             }
           },
           "item-0": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/1200x1200faitmain.jpg",
+              "image": "shopify:\/\/shop_images\/1200x1200faitmain.jpg",
               "apply_overlay": true,
               "title": "artisanal",
               "subheading": "",
               "heading": "Un savoir faire unique.",
-              "content": "<p>Nous fabriquons nos encens <strong>à la main</strong> de façon artisanale et contrôlons l&#x27;intégralité du processus de production. Comme ça, pas de surprise !</p><p>Venez découvrir notre atelier et créer vos propres encens avec nous. La porte est toujours grande ouverte !</p>"
+              "content": "<p>Nous fabriquons nos encens <strong>à la main<\/strong> de façon artisanale et contrôlons l&#x27;intégralité du processus de production. Comme ça, pas de surprise !<\/p><p>Venez découvrir notre atelier et créer vos propres encens avec nous. La porte est toujours grande ouverte !<\/p>"
             }
           }
         },
-        "block_order": ["item-1", "item-2", "item-0"],
-        "settings": { "text_color": "#ffffff" }
+        "block_order": [
+          "item-1",
+          "item-2",
+          "item-0"
+        ],
+        "settings": {
+          "text_color": "#ffffff"
+        }
       },
       "blog-posts": {
         "type": "blog-posts",
         "disabled": true,
         "blocks": {
-          "blog-0": { "type": "blog", "settings": { "blog": "news" } }
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "news"
+            }
+          }
         },
-        "block_order": ["blog-0"],
+        "block_order": [
+          "blog-0"
+        ],
         "settings": {
           "subheading": "",
           "title": "Featured article",
@@ -355,7 +382,10 @@
             }
           }
         },
-        "block_order": ["look-0", "look-1"],
+        "block_order": [
+          "look-0",
+          "look-1"
+        ],
         "settings": {
           "subheading": "Shop",
           "title": "Our looks",
@@ -400,7 +430,7 @@
           "text_color": "#ffffff",
           "apply_overlay": true,
           "title": "Our story",
-          "content": "<p>Add your own custom content to explain your processes...</p>"
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
         }
       },
       "product-template": {
@@ -449,7 +479,7 @@
           "show_only_for_visitors": false,
           "show_only_once": false,
           "title": "Bloom x Ulule",
-          "content": "<p>Discover a preview of our latest <a href=\"https://fr.ulule.com/encens-bloom/\" title=\"https://fr.ulule.com/encens-bloom/\">Blue Bird</a> box 💙</p>",
+          "content": "<p>Discover a preview of our latest <a href=\"https:\/\/fr.ulule.com\/encens-bloom\/\" title=\"https:\/\/fr.ulule.com\/encens-bloom\/\">Blue Bird<\/a> box 💙<\/p>",
           "show_newsletter": false,
           "apparition_delay": 2
         }
@@ -473,20 +503,22 @@
           "16273235254943b040-0": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/reasssurancedesktop_2Plan_de_travail_1_80ba57d1-2223-40b6-832a-fbcc9a4d0190.jpg",
-              "mobile_image": "shopify://shop_images/reasssurancedesktop_2Plan_de_travail_3.jpg",
+              "image": "shopify:\/\/shop_images\/reasssurancedesktop_2Plan_de_travail_1_80ba57d1-2223-40b6-832a-fbcc9a4d0190.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/reasssurancedesktop_2Plan_de_travail_3.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "",
               "button_1_text": "",
-              "button_1_link": "shopify://pages/qui-sommes-nous",
+              "button_1_link": "shopify:\/\/pages\/qui-sommes-nous",
               "button_2_text": "",
               "button_2_link": ""
             }
           }
         },
-        "block_order": ["16273235254943b040-0"],
+        "block_order": [
+          "16273235254943b040-0"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -499,7 +531,9 @@
       },
       "1631834065c6c6e734": {
         "type": "judgeme_carousel_section",
-        "settings": { "maxwidth": 720 }
+        "settings": {
+          "maxwidth": 720
+        }
       },
       "cart-template": {
         "type": "cart-template",
@@ -521,7 +555,9 @@
             }
           }
         },
-        "block_order": ["1643234571e6d89435-0"],
+        "block_order": [
+          "1643234571e6d89435-0"
+        ],
         "settings": {
           "title": "Essentiels",
           "layout_mode": "carousel",
@@ -545,7 +581,9 @@
             }
           }
         },
-        "block_order": ["1643234626bf24ba6d-0"],
+        "block_order": [
+          "1643234626bf24ba6d-0"
+        ],
         "settings": {
           "title": "Toujours faits en France !",
           "layout_mode": "carousel",
@@ -569,7 +607,9 @@
             }
           }
         },
-        "block_order": ["1643234925fe120916-0"],
+        "block_order": [
+          "1643234925fe120916-0"
+        ],
         "settings": {
           "title": "",
           "layout_mode": "carousel",
@@ -593,7 +633,9 @@
             }
           }
         },
-        "block_order": ["16432351999b7479a3-0"],
+        "block_order": [
+          "16432351999b7479a3-0"
+        ],
         "settings": {
           "title": "",
           "layout_mode": "grid",
@@ -633,8 +675,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/bannieredesktopplaisircoupable-2_03.jpg",
-              "mobile_image": "shopify://shop_images/plaisircoupablemobile_03.jpg",
+              "image": "shopify:\/\/shop_images\/bannieredesktopplaisircoupable-2_03.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/plaisircoupablemobile_03.jpg",
               "apply_overlay": false,
               "content_position": "middleCenter",
               "subheading": "",
@@ -646,7 +688,9 @@
             }
           }
         },
-        "block_order": ["164381003358438e0c-0"],
+        "block_order": [
+          "164381003358438e0c-0"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -663,8 +707,8 @@
           "1644772364b3dcd044-0": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/vusur_2.jpg",
-              "mobile_image": "shopify://shop_images/vusurmobile_0ddf384f-2952-4acc-874e-0580199056fb_2.jpg",
+              "image": "shopify:\/\/shop_images\/vusur_2.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/vusurmobile_0ddf384f-2952-4acc-874e-0580199056fb_2.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -676,7 +720,9 @@
             }
           }
         },
-        "block_order": ["1644772364b3dcd044-0"],
+        "block_order": [
+          "1644772364b3dcd044-0"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -691,12 +737,12 @@
         "type": "image-with-text-block",
         "disabled": true,
         "settings": {
-          "image": "shopify://shop_images/Sans-titre-4_3c62bc0b-8243-4450-8ee6-1d11153a8bf5.jpg",
+          "image": "shopify:\/\/shop_images\/Sans-titre-4_3c62bc0b-8243-4450-8ee6-1d11153a8bf5.jpg",
           "background": "#ffffff",
           "text_color": "#1c1b1b",
           "block_size": "large",
           "title": "Hello, that Bloom?",
-          "content": "<p>Say hello to the first incense made in France, 100% natural and handmade! Far from traditional incense while maintaining an artisanal process, we have created a greener, healthier and more subtle incense.</p>",
+          "content": "<p>Say hello to the first incense made in France, 100% natural and handmade! Far from traditional incense while maintaining an artisanal process, we have created a greener, healthier and more subtle incense.<\/p>",
           "button_label": "To discover",
           "button_link": "",
           "show_parallax": false
@@ -705,7 +751,7 @@
       "image-with-text-block": {
         "type": "image-with-text-block",
         "settings": {
-          "image": "shopify://shop_images/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_9_3a6bbe00-ebce-4d43-a213-36fce9eeb816.gif",
+          "image": "shopify:\/\/shop_images\/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_9_3a6bbe00-ebce-4d43-a213-36fce9eeb816.gif",
           "background": "#ffffff",
           "text_color": "#1c1b1b",
           "block_size": "small",
@@ -720,13 +766,13 @@
         "type": "image-with-text-overlay",
         "settings": {
           "section_size": "small",
-          "image": "shopify://shop_images/banniere-principalePlan-de-travail-1_37794b0a-1720-4cdb-9236-13a498235c25.png",
+          "image": "shopify:\/\/shop_images\/banniere-principalePlan-de-travail-1_37794b0a-1720-4cdb-9236-13a498235c25.png",
           "text_color": "#ffffff",
           "overlay_color": "#000000",
           "overlay_opacity": 30,
           "subheading": "",
           "title": "Tell your story",
-          "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+          "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
         }
       },
       "1653319576fa33a4f6": {
@@ -736,8 +782,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/reasssurancedesktop_2Plan_de_travail_4_copie_b922fc7b-b6d4-479a-b794-d5346d4c5902.jpg",
-              "mobile_image": "shopify://shop_images/reasssurancedesktop_2Plan_de_travail_4_aaac968e-d3a2-4482-a5d2-92954e1d5626.jpg",
+              "image": "shopify:\/\/shop_images\/reasssurancedesktop_2Plan_de_travail_4_copie_b922fc7b-b6d4-479a-b794-d5346d4c5902.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/reasssurancedesktop_2Plan_de_travail_4_aaac968e-d3a2-4482-a5d2-92954e1d5626.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -749,7 +795,9 @@
             }
           }
         },
-        "block_order": ["1653319576fa33a4f6-0"],
+        "block_order": [
+          "1653319576fa33a4f6-0"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -766,111 +814,111 @@
           "1656664480e8559632-0": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0005_Vibrance_1_copie_5_1.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0005_Vibrance_1_copie_5_1.jpg",
               "apply_overlay": true,
               "title": "Sarah",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "Natural and made in France",
-              "content": "<p>\"Bloom's values on the manufacture of their incense sticks is what I liked from the start, a natural manufacture, 100% Made In France and with smells that are just crazy!\"</p>"
+              "content": "<p>\"Bloom's values on the manufacture of their incense sticks is what I liked from the start, a natural manufacture, 100% Made In France and with smells that are just crazy!\"<\/p>"
             }
           },
           "1395bc99-52cc-4908-8f56-c6adb134f251": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0006_Vibrance_1_copie_6_561aac25-261d-4bb3-bf88-2a3719c13148.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0006_Vibrance_1_copie_6_561aac25-261d-4bb3-bf88-2a3719c13148.jpg",
               "apply_overlay": true,
               "title": "Marine",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "An essential!",
-              "content": "<p>\"Energetic sound therapist, it is essential for me to prepare my tools and my room before each session. Installing a climate of trust and well-being goes through the 5 senses and in particular through the olfactory, and through ethics as much as the energy released by these sticks, Bloom was obvious to me.\"</p>"
+              "content": "<p>\"Energetic sound therapist, it is essential for me to prepare my tools and my room before each session. Installing a climate of trust and well-being goes through the 5 senses and in particular through the olfactory, and through ethics as much as the energy released by these sticks, Bloom was obvious to me.\"<\/p>"
             }
           },
           "1656664480e8559632-1": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0003_Vibrance_1_copie_3_cb236ea2-f46b-4510-a79a-e53c2a88faf2.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0003_Vibrance_1_copie_3_cb236ea2-f46b-4510-a79a-e53c2a88faf2.jpg",
               "apply_overlay": true,
               "title": "Jordan",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "Joy of scents",
-              "content": "<p>\"A real headache to choose! The scents are all as pleasant as each other.\"</p>"
+              "content": "<p>\"A real headache to choose! The scents are all as pleasant as each other.\"<\/p>"
             }
           },
           "f3ac7ec4-a98a-4734-9653-007ca22d9938": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0009_Vibrance_1_copie_9_91f15b8f-96ad-42a3-8b1d-7de02355214b.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0009_Vibrance_1_copie_9_91f15b8f-96ad-42a3-8b1d-7de02355214b.jpg",
               "apply_overlay": true,
               "title": "Priscilla",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "A real reconciliation with incense!",
-              "content": "<p>\"Bloom incense reconciled me with stick incense, thanks to their impeccable composition, their manufacture in France and above all, their absolutely divine smells! I love using them to relax or concentrate when I work.\"</p>"
+              "content": "<p>\"Bloom incense reconciled me with stick incense, thanks to their impeccable composition, their manufacture in France and above all, their absolutely divine smells! I love using them to relax or concentrate when I work.\"<\/p>"
             }
           },
           "1656664480e8559632-2": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0000_Vibrance_1_f8214111-0f8d-49ed-b88f-0f546012a160.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0000_Vibrance_1_f8214111-0f8d-49ed-b88f-0f546012a160.jpg",
               "apply_overlay": true,
               "title": "Aurélie",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "Incense that does not stubborn... finally!",
-              "content": "<p>\"I have completely adopted Bloom incense, whether in my daily practice or to create a cozy atmosphere at home! What I appreciate is the richness of their scents, which are very present without taking the lead like this may be the case with other incense. And what a joy to know that they are made in the South-West!\"</p>"
+              "content": "<p>\"I have completely adopted Bloom incense, whether in my daily practice or to create a cozy atmosphere at home! What I appreciate is the richness of their scents, which are very present without taking the lead like this may be the case with other incense. And what a joy to know that they are made in the South-West!\"<\/p>"
             }
           },
           "963b4d10-ac75-4072-879b-21f7e2a67940": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0001_Vibrance_1_copie_b4b3b3d8-f2ec-4533-8ac0-61be7b5b81b2.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0001_Vibrance_1_copie_b4b3b3d8-f2ec-4533-8ac0-61be7b5b81b2.jpg",
               "apply_overlay": true,
               "title": "Amélie",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "Little pleasure",
-              "content": "<p>\"Bloom incense is my little pleasure after a day cleaning: nothing better than the intoxicating smell of Bubble Shell to enjoy a moment of pure relaxation!\"</p>"
+              "content": "<p>\"Bloom incense is my little pleasure after a day cleaning: nothing better than the intoxicating smell of Bubble Shell to enjoy a moment of pure relaxation!\"<\/p>"
             }
           },
           "490681d3-2f28-4c84-9218-d9068950841d": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0008_Vibrance_1_copie_8_a0c84783-d36b-4964-8762-4f321bd64464.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0008_Vibrance_1_copie_8_a0c84783-d36b-4964-8762-4f321bd64464.jpg",
               "apply_overlay": true,
               "title": "Nicholas",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "Perfume your interior in a flame!",
-              "content": "<p>\"The Bloom incense collection is a real pleasure, it's so pleasant to perfume your interior with a simple flame with natural ingredients\"</p>"
+              "content": "<p>\"The Bloom incense collection is a real pleasure, it's so pleasant to perfume your interior with a simple flame with natural ingredients\"<\/p>"
             }
           },
           "3f5517d9-57b5-43bc-a451-401e23f4a5b0": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_0007_Vibrance_1_copie_7_f6711f27-2858-48a1-a129-ada5961fc63e.jpg",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_0007_Vibrance_1_copie_7_f6711f27-2858-48a1-a129-ada5961fc63e.jpg",
               "apply_overlay": true,
               "title": "Dawn",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "Recharge at home",
-              "content": "<p>\"Bloom products, a must have for creating a haven of peace and recharging one's batteries... easily at home!\"</p>"
+              "content": "<p>\"Bloom products, a must have for creating a haven of peace and recharging one's batteries... easily at home!\"<\/p>"
             }
           },
           "e1c30885-7499-444b-b5ee-2f27534da0f2": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-2_b80799dd-a3cd-4e78-b24c-43fea14b4a70.png",
+              "image": "shopify:\/\/shop_images\/Sans_titre-2_b80799dd-a3cd-4e78-b24c-43fea14b4a70.png",
               "apply_overlay": true,
               "title": "Amélie",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "Support the made in France!",
-              "content": "<p>\"I like to use Bloom incense during my Rituals, they smell good and cleanse energies. A little extra: It's important for me to support a French company with quality products.\"</p>"
+              "content": "<p>\"I like to use Bloom incense during my Rituals, they smell good and cleanse energies. A little extra: It's important for me to support a French company with quality products.\"<\/p>"
             }
           },
           "f525b6bc-6409-435b-a44b-b2ac206c9476": {
             "type": "item",
             "settings": {
-              "image": "shopify://shop_images/IMG_4486_f0385779-3efe-4dab-93a5-ae4cb6761021.jpg",
+              "image": "shopify:\/\/shop_images\/IMG_4486_f0385779-3efe-4dab-93a5-ae4cb6761021.jpg",
               "apply_overlay": true,
               "title": "Alice",
               "subheading": "⭐⭐⭐⭐⭐",
               "heading": "A real pleasure with each use",
-              "content": "<p>“I have been using Bloom incense since my installation as a Naturopath. The olfactory benefits are incredible for my clients and for myself! A pleasure with each massage, meditation or consultation! »</p>"
+              "content": "<p>“I have been using Bloom incense since my installation as a Naturopath. The olfactory benefits are incredible for my clients and for myself! A pleasure with each massage, meditation or consultation! »<\/p>"
             }
           }
         },
@@ -886,7 +934,9 @@
           "e1c30885-7499-444b-b5ee-2f27534da0f2",
           "f525b6bc-6409-435b-a44b-b2ac206c9476"
         ],
-        "settings": { "text_color": "#ffffff" }
+        "settings": {
+          "text_color": "#ffffff"
+        }
       },
       "1656666178bd92d8d6": {
         "type": "slideshow",
@@ -894,8 +944,8 @@
           "1656666178bd92d8d6-0": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Sans_titre-3_26e73e61-67dc-4834-b412-1d68274131c9.png",
-              "mobile_image": "shopify://shop_images/Plan_de_travail_1.png",
+              "image": "shopify:\/\/shop_images\/Sans_titre-3_26e73e61-67dc-4834-b412-1d68274131c9.png",
+              "mobile_image": "shopify:\/\/shop_images\/Plan_de_travail_1.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -907,7 +957,9 @@
             }
           }
         },
-        "block_order": ["1656666178bd92d8d6-0"],
+        "block_order": [
+          "1656666178bd92d8d6-0"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -923,11 +975,11 @@
         "settings": {
           "subheading": "",
           "title": "On ne trouvait pas d'encens sain et fait en France. Alors on a crée le nôtre !",
-          "image": "shopify://shop_images/Sans_titre-1_77be7f65-dee3-49d3-833e-07415ddffbe8.png",
+          "image": "shopify:\/\/shop_images\/Sans_titre-1_77be7f65-dee3-49d3-833e-07415ddffbe8.png",
           "image_position": "right",
-          "content": "<p>Chez Bloom, tu trouveras des bâtons d'encens aux senteurs inédites et subtiles. Chaque encens est fabriqué à partir de seulement 6 ingrédients 100% naturels : du bois, des fruits, des épices, des plantes, des fleurs... pas besoin de plus !</p>",
+          "content": "<p>Chez Bloom, tu trouveras des bâtons d'encens aux senteurs inédites et subtiles. Chaque encens est fabriqué à partir de seulement 6 ingrédients 100% naturels : du bois, des fruits, des épices, des plantes, des fleurs... pas besoin de plus !<\/p>",
           "link_text": "Découvrir tous nos produits",
-          "link_url": "shopify://collections/all"
+          "link_url": "shopify:\/\/collections\/all"
         }
       },
       "featured-video": {
@@ -946,7 +998,7 @@
           "d5639e38-3cd7-408d-9b7b-996d192e70a7": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_6.png",
+              "image": "shopify:\/\/shop_images\/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_6.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -958,7 +1010,9 @@
             }
           }
         },
-        "block_order": ["d5639e38-3cd7-408d-9b7b-996d192e70a7"],
+        "block_order": [
+          "d5639e38-3cd7-408d-9b7b-996d192e70a7"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -975,7 +1029,7 @@
           "7ea1da0b-9328-4a8d-800a-4e4ad217be2b": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_18.png",
+              "image": "shopify:\/\/shop_images\/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_18.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -987,7 +1041,9 @@
             }
           }
         },
-        "block_order": ["7ea1da0b-9328-4a8d-800a-4e4ad217be2b"],
+        "block_order": [
+          "7ea1da0b-9328-4a8d-800a-4e4ad217be2b"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -1004,7 +1060,7 @@
           "b2270f5b-926c-433a-a69d-40ca9a7dae51": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_21.png",
+              "image": "shopify:\/\/shop_images\/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_21.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -1016,7 +1072,9 @@
             }
           }
         },
-        "block_order": ["b2270f5b-926c-433a-a69d-40ca9a7dae51"],
+        "block_order": [
+          "b2270f5b-926c-433a-a69d-40ca9a7dae51"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -1033,7 +1091,7 @@
           "8e981ce5-0603-4765-8a36-ce6ce605e838": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_27.png",
+              "image": "shopify:\/\/shop_images\/Jaune_Professionnel_Degrade_Application_Developpement_Banniere_Paysage_27.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
@@ -1045,7 +1103,9 @@
             }
           }
         },
-        "block_order": ["8e981ce5-0603-4765-8a36-ce6ce605e838"],
+        "block_order": [
+          "8e981ce5-0603-4765-8a36-ce6ce605e838"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
@@ -1062,14 +1122,14 @@
           "051d91d9-3c76-4b41-881d-79bf7604ec8d-167948554729725147-0": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/banniere-suncatchers-desktop2.png",
-              "mobile_image": "shopify://shop_images/banniere-mobile-suncatcher3_817602f1-4672-4753-bf73-b53b1a8959fb.png",
+              "image": "shopify:\/\/shop_images\/banniere-suncatchers-desktop2.png",
+              "mobile_image": "shopify:\/\/shop_images\/banniere-mobile-suncatcher3_817602f1-4672-4753-bf73-b53b1a8959fb.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "C'est le retour du beau temps !",
               "title": "Laisse entrer la lumière et la magie avec nos suncatchers",
               "button_1_text": "Découvrir",
-              "button_1_link": "shopify://products/suncatchers-bloom-x-atelier-intuitive",
+              "button_1_link": "shopify:\/\/products\/suncatchers-bloom-x-atelier-intuitive",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -1094,14 +1154,14 @@
           "693fcf00-f730-4d47-9867-6de5622a86cd-16794961361fa8c835-0": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/banniere-principale-desktop.png",
-              "mobile_image": "shopify://shop_images/banniere-principale-mobile2_774bbb34-6a01-44b5-92de-2658694ef917.png",
+              "image": "shopify:\/\/shop_images\/banniere-principale-desktop.png",
+              "mobile_image": "shopify:\/\/shop_images\/banniere-principale-mobile2_774bbb34-6a01-44b5-92de-2658694ef917.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "Made in France, Naturel, Artisanal",
               "title": "L'encens à consumer sans modération",
               "button_1_text": "Découvrir",
-              "button_1_link": "shopify://collections/coffrets-dencens",
+              "button_1_link": "shopify:\/\/collections\/coffrets-dencens",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -1122,8 +1182,8 @@
       }
     },
     "content_for_index": [
-      "051d91d9-3c76-4b41-881d-79bf7604ec8d",
       "693fcf00-f730-4d47-9867-6de5622a86cd",
+      "051d91d9-3c76-4b41-881d-79bf7604ec8d",
       "16490712728d2ba2ed",
       "6b8a68aa-6487-4b12-932c-381ec9f6d630",
       "1643234571e6d89435",
@@ -1141,14 +1201,16 @@
     ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -1202,7 +1264,10 @@
       "sections": {
         "sidebar-menu": {
           "type": "sidebar-menu",
-          "settings": { "primary_menu": "main-menu", "show_social_media": true }
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
         },
         "announcement": {
           "type": "announcement",
@@ -1230,21 +1295,32 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
                 "show_social_media": true
               }
             },
-            "footer-1": { "type": "links", "settings": { "menu": "footer" } },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
             "footer-2": {
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
-          "settings": { "show_payment_methods": true }
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
         },
         "slideshow": {
           "type": "slideshow",
@@ -1268,7 +1344,10 @@
               }
             }
           },
-          "block_order": ["slide-0", "slide-1"],
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
           "settings": {
             "show_fullscreen": true,
             "show_arrow": false,
@@ -1289,7 +1368,9 @@
               }
             }
           },
-          "block_order": ["featured-collection-0"],
+          "block_order": [
+            "featured-collection-0"
+          ],
           "settings": {
             "title": "Featured collection",
             "layout_mode": "grid",
@@ -1329,7 +1410,11 @@
               }
             }
           },
-          "block_order": ["collection-0", "collection-1", "collection-2"],
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
           "settings": {
             "add_spacing": true,
             "expand_collection": false,
@@ -1360,7 +1445,7 @@
                 "title": "2000",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             },
             "item-1": {
@@ -1370,7 +1455,7 @@
                 "title": "2001",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             },
             "item-2": {
@@ -1380,19 +1465,32 @@
                 "title": "2002",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             }
           },
-          "block_order": ["item-0", "item-1", "item-2"],
-          "settings": { "text_color": "#ffffff" }
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
         },
         "blog-posts": {
           "type": "blog-posts",
           "blocks": {
-            "blog-0": { "type": "blog", "settings": { "blog": "news" } }
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
           },
-          "block_order": ["blog-0"],
+          "block_order": [
+            "blog-0"
+          ],
           "settings": {
             "title": "Featured article",
             "show_category": false,
@@ -1427,8 +1525,14 @@
               }
             }
           },
-          "block_order": ["look-0", "look-1"],
-          "settings": { "subheading": "Shop", "title": "Our looks" }
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
         },
         "collection-template": {
           "type": "collection-template",
@@ -1461,7 +1565,7 @@
             "text_color": "#ffffff",
             "apply_overlay": true,
             "title": "Our story",
-            "content": "<p>Add your own custom content to explain your processes...</p>"
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
           }
         },
         "product-template": {
@@ -1548,7 +1652,10 @@
       "sections": {
         "sidebar-menu": {
           "type": "sidebar-menu",
-          "settings": { "primary_menu": "main-menu", "show_social_media": true }
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
         },
         "announcement": {
           "type": "announcement",
@@ -1576,21 +1683,32 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
                 "show_social_media": true
               }
             },
-            "footer-1": { "type": "links", "settings": { "menu": "footer" } },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
             "footer-2": {
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
-          "settings": { "show_payment_methods": true }
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
         },
         "slideshow": {
           "type": "slideshow",
@@ -1614,7 +1732,10 @@
               }
             }
           },
-          "block_order": ["slide-0", "slide-1"],
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
           "settings": {
             "show_fullscreen": true,
             "show_arrow": false,
@@ -1635,7 +1756,9 @@
               }
             }
           },
-          "block_order": ["featured-collection-0"],
+          "block_order": [
+            "featured-collection-0"
+          ],
           "settings": {
             "title": "Featured collection",
             "layout_mode": "grid",
@@ -1675,7 +1798,11 @@
               }
             }
           },
-          "block_order": ["collection-0", "collection-1", "collection-2"],
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
           "settings": {
             "add_spacing": true,
             "expand_collection": false,
@@ -1706,7 +1833,7 @@
                 "title": "2000",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             },
             "item-1": {
@@ -1716,7 +1843,7 @@
                 "title": "2001",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             },
             "item-2": {
@@ -1726,19 +1853,32 @@
                 "title": "2002",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             }
           },
-          "block_order": ["item-0", "item-1", "item-2"],
-          "settings": { "text_color": "#ffffff" }
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
         },
         "blog-posts": {
           "type": "blog-posts",
           "blocks": {
-            "blog-0": { "type": "blog", "settings": { "blog": "news" } }
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
           },
-          "block_order": ["blog-0"],
+          "block_order": [
+            "blog-0"
+          ],
           "settings": {
             "title": "Featured article",
             "show_category": false,
@@ -1773,8 +1913,14 @@
               }
             }
           },
-          "block_order": ["look-0", "look-1"],
-          "settings": { "subheading": "Shop", "title": "Our looks" }
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
         },
         "collection-template": {
           "type": "collection-template",
@@ -1807,7 +1953,7 @@
             "text_color": "#ffffff",
             "apply_overlay": true,
             "title": "Our story",
-            "content": "<p>Add your own custom content to explain your processes...</p>"
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
           }
         },
         "product-template": {
@@ -1895,7 +2041,10 @@
       "sections": {
         "sidebar-menu": {
           "type": "sidebar-menu",
-          "settings": { "primary_menu": "main-menu", "show_social_media": true }
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
         },
         "announcement": {
           "type": "announcement",
@@ -1923,21 +2072,32 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
                 "show_social_media": true
               }
             },
-            "footer-1": { "type": "links", "settings": { "menu": "footer" } },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
             "footer-2": {
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
               }
             }
           },
-          "block_order": ["footer-0", "footer-1", "footer-2"],
-          "settings": { "show_payment_methods": true }
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
         },
         "slideshow": {
           "type": "slideshow",
@@ -1961,7 +2121,10 @@
               }
             }
           },
-          "block_order": ["slide-0", "slide-1"],
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
           "settings": {
             "show_fullscreen": true,
             "show_arrow": false,
@@ -1982,7 +2145,9 @@
               }
             }
           },
-          "block_order": ["featured-collection-0"],
+          "block_order": [
+            "featured-collection-0"
+          ],
           "settings": {
             "title": "Featured collection",
             "layout_mode": "grid",
@@ -2022,7 +2187,11 @@
               }
             }
           },
-          "block_order": ["collection-0", "collection-1", "collection-2"],
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
           "settings": {
             "add_spacing": true,
             "expand_collection": false,
@@ -2053,7 +2222,7 @@
                 "title": "2000",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             },
             "item-1": {
@@ -2063,7 +2232,7 @@
                 "title": "2001",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             },
             "item-2": {
@@ -2073,19 +2242,32 @@
                 "title": "2002",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
               }
             }
           },
-          "block_order": ["item-0", "item-1", "item-2"],
-          "settings": { "text_color": "#ffffff" }
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
         },
         "blog-posts": {
           "type": "blog-posts",
           "blocks": {
-            "blog-0": { "type": "blog", "settings": { "blog": "news" } }
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
           },
-          "block_order": ["blog-0"],
+          "block_order": [
+            "blog-0"
+          ],
           "settings": {
             "title": "Featured article",
             "show_category": false,
@@ -2120,8 +2302,14 @@
               }
             }
           },
-          "block_order": ["look-0", "look-1"],
-          "settings": { "subheading": "Shop", "title": "Our looks" }
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
         },
         "collection-template": {
           "type": "collection-template",
@@ -2154,7 +2342,7 @@
             "text_color": "#ffffff",
             "apply_overlay": true,
             "title": "Our story",
-            "content": "<p>Add your own custom content to explain your processes...</p>"
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
           }
         },
         "product-template": {
