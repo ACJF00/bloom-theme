@@ -11466,6 +11466,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   src: url('{{ "Made-Gentle.woff" | asset_url }}') format("TrueType");
 }
 
-h2 {
+h1, h2, h3, a {
   font-family: Made !important;
 }
