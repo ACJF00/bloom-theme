@@ -1,0 +1,190 @@
+{% comment %}
+<!-- DO NOT EDIT!! - Auto generated file by ShopiMind ->
+{% endcomment %}
+{% assign min_visitor_id = 20000000000000 %}
+{% assign max_visitor_id = 99999999999999 %}
+{% assign diff = max_visitor_id | minus: min_visitor_id %}
+{% assign random_visitor_id = "now" | date: "%N" | modulo: diff | plus: min_visitor_id %}
+
+{% assign min_session_id = 3000000000000 %}
+{% assign max_session_id = 9999999999999 %}
+{% assign diff = max_session_id | minus: min_session_id %}
+{% assign random_session_id = "now" | date: "%N" | modulo: diff | plus: min_session_id %}
+
+<script>
+  window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" rel="preload"><\/script>')
+  const regex = /[a-zA-Z0-9]/;
+  function deleteSpecialChars(word){
+   let nameRegex = '';
+   for (let charIndex = 0; charIndex < word.length; charIndex += 1) {
+     const reg = word[charIndex].match(regex);
+     if (reg) {
+       nameRegex += word[charIndex];
+     }
+   }
+   return nameRegex;
+  };
+  var id_manufacturer = deleteSpecialChars("{{product.vendor | strip | downcase}}");
+</script>
+<script>
+{%- assign id_cart = cart.attributes.shopimind-cart-id -%}
+
+{%- if cart -%}
+  {%- if id_cart == null -%}
+    {% assign min_cart_id = 100000000000 %}
+    {% assign max_cart_id = 999999999999 %}
+    {% assign diff = max_cart_id | minus: min_cart_id %}
+    {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min_cart_id %}
+    {%- assign id_cart = cart.attributes.shopimind-cart-id -%}
+    function updateCartAttributes(data, callback) {
+        var params = {
+          type: 'POST',
+          url: '/cart/update.js',
+          data: data,
+          dataType: 'json',
+          success: function(cart) {
+            if ((typeof callback) === 'function') {
+              callback(cart);
+            }
+          }
+        }; 
+        jQuery.ajax(params);
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        updateCartAttributes("attributes[shopimind-cart-id]={{randomNumber}}");
+      });
+    {%- endif -%} 
+{%- endif -%} 
+
+{%- assign cartToken = cartJson | split:'token":"' | last | split:'"' | first -%}
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000)); 
+        var expires = "; expires="+date.toGMTString(); 
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/"; 
+}
+
+var _spmq = {
+    "url": document.location.href,
+    {%- if customer -%}
+        "user": {
+          "birthday": "0000-00-00 00:00:00",
+          "customer_since": "0000-00-00 00:00:00",
+          "email_address" : "{{ customer.email | md5 }}",
+          "gender": "",
+          "id_customer": {{ customer.id | json }},
+          {%- if customer.accepts_marketing -%}
+          "newsletter": 1,
+          "optin": 1,
+          {%- else -%}
+          "newsletter": "",
+          "optin": "",
+          {%- endif -%}
+          {%- if customer_address -%}
+            "postcode": {{ customer_address.zip | json }},
+            "region": "",
+            "country": {{ customer_address.country_code | json }},
+          {%- else -%}
+            "postcode": "",
+            "region": "",
+            "country":  ""
+          {%- endif -%}              
+        },
+      {%- else -%}
+      "user": null,           
+    {%- endif -%}
+    "id_product": "{{ product.id }}",
+    "id_category": "{{ collection.id }}",
+    "id_manufacturer": id_manufacturer,
+    "spm_ident": "{{ shop.metafields.shopimind.spmident }}",
+    "visitor_id": null,
+    {%- if cart and cart.items.size > 0 -%}
+      "cart": {
+        "amount": {{ cart.total_price | money_without_currency | json }},
+        "currency": {{ cart.currency.iso_code | json }},
+        "date_add": "0000-00-00 00:00:00",
+        "date_upd": "0000-00-00 00:00:00",
+        "id_cart": "{{ id_cart }}",
+        "id_customer": {{ customer.id | json }},
+        {%- if cart.item_count -%}
+        "products": [
+          {%- for item in cart.items -%}
+          {
+            "id_product": {{ item.product_id | json }},
+            "id_combination": {{ item.variant_id | json }},
+            "id_manufacturer": id_manufacturer,
+            "price": {{ item.line_price | money_without_currency | json }},
+            "price_without_tax" : {{ item.line_price | money_without_currency | json }},
+            "qty" : {{ item.quantity | json }}
+          {% if forloop.last == true %}
+          }
+          {%- else -%}
+          },
+          {%- endif -%}   
+          {%- endfor -%}
+        ],
+        {%- else -%}
+        "products": [],
+        {%- endif -%}    
+        "tax_rate": "1.0",
+        "voucher_amount": {{ cart.total_discount | json }},
+        "voucher_used": [
+          {%- for item in cart.cart_level_discount_applications -%}
+            {{ item.title | json }}
+            {% if forloop.last == true %}
+
+            {%- else -%}
+            ,
+            {%- endif -%}   
+          {%- endfor -%}
+        ],
+      },
+    "id_cart": "{{ id_cart }}"
+    {%- else -%}
+    "cart": null,
+    "id_cart": null        
+    {%- endif -%}
+};
+
+var spm_script_url = 'https://app-spm.com';
+{% if shop.metafields.shopimind.spm_script_url and shop.metafields.shopimind.spm_script_url != "" %}
+  spm_script_url = "{{ shop.metafields.shopimind.spm_script_url }}";
+{% endif %}
+
+(function() { 
+    var spm = document.createElement('script');
+    var visitor_id = getCookie('shopimind_visitor_id');
+    var session_id = getCookie('shopimind_session_id');
+    _spmq.visitor_id = visitor_id;
+    if (!visitor_id) {
+      createCookie('shopimind_visitor_id', {{ random_visitor_id }}, 365);
+    }
+    if (!session_id) {
+      createCookie('shopimind_session_id', {{ random_session_id }}, '');
+    }
+    spm.type = 'text/javascript';
+    spm.async = true;
+    spm.src = spm_script_url+'/app.js?url='+document.location.href+'&id_customer={{ customer.id }}&id_product={{ product.id }}&id_category={{ collection.id }}&id_manufacturer='+ id_manufacturer +'&spm_ident={{ shop.metafields.shopimind.spmident }}&session_id=' + session_id +'&visitor_id=' + visitor_id;
+    var s_spm = document.getElementsByTagName('script')[0];
+    s_spm.parentNode.insertBefore(spm, s_spm);
+})();
+</script> 
