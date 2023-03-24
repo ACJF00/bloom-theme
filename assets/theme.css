@@ -11462,6 +11462,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 @font-face {
-  font-family: "Made Gentle";
+  font-family: "Made";
   src: url('{{ "Made-Gentle.woff" | asset_url }}') format("TrueType");
 }
+
+p {
+  font-family: Made !important;
+}
+
