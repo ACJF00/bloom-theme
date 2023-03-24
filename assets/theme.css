@@ -10991,3 +10991,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     margin-top: 65px;
   }
 }
+
+@font-face {
+  font-family: "Made Gentle";
+  src: url('{{ "Made-Gentle.woff" | asset_url }}) format("TrueType")}';
