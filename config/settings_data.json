@@ -990,9 +990,10 @@
       "34284f6b-efef-4b82-92ee-eb3d967aeda0": {
         "type": "custom-html",
         "custom_css": [
-          "h2 {margin: auto; font-size: 3rem; margin-bottom: -70px}",
+          "h2 {margin: auto; font-size: 3rem; margin-bottom: -70px;}",
           ".Button {border: none !important; padding: 1rem 5rem; color: white; font-weight: bold;}",
-          ".Button::before {background-color: #233f41 !important; border-radius: 30px;}"
+          ".Button::before {background-color: #233f41 !important; border-radius: 30px;}",
+          "section {padding: 0;}"
         ],
         "settings": {
           "subheading": "",
