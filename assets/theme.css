@@ -11481,7 +11481,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 //FIRST SLIDESHOW TITLE
-#section-693fcf00-f730-4d47-9867-6de5622a86cd .Heading, #section-693fcf00-f730-4d47-9867-6de5622a86cd .flickity-page-dots {
+h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading.u-h1 {
   color: #dea3a2 !important;
   font-size: 3rem;
 }
