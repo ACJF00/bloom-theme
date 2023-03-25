@@ -545,32 +545,6 @@
           "shipping_estimator_default_country": "United States"
         }
       },
-      "1643234571e6d89435": {
-        "type": "featured-collections",
-        "blocks": {
-          "1643234571e6d89435-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "coffrets-dencens",
-              "title": "Coffrets d'encens naturels",
-              "grid_items_count": 8,
-              "button_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "1643234571e6d89435-0"
-        ],
-        "settings": {
-          "title": "Essentiels",
-          "layout_mode": "carousel",
-          "show_product_info": true,
-          "show_vendor": false,
-          "show_color_swatch": false,
-          "grid_mobile_items_per_row": "2",
-          "grid_desktop_items_per_row": 4
-        }
-      },
       "1643234626bf24ba6d": {
         "type": "featured-collections",
         "blocks": {
@@ -666,21 +640,6 @@
           "text_color": "#ffffff",
           "button_color": "#363636",
           "button_background": "#ffffff"
-        }
-      },
-      "16490712728d2ba2ed": {
-        "type": "image-with-text-block",
-        "disabled": true,
-        "settings": {
-          "image": "shopify:\/\/shop_images\/Sans-titre-4_3c62bc0b-8243-4450-8ee6-1d11153a8bf5.jpg",
-          "background": "#ffffff",
-          "text_color": "#1c1b1b",
-          "block_size": "large",
-          "title": "Hello, that Bloom?",
-          "content": "<p>Say hello to the first incense made in France, 100% natural and handmade! Far from traditional incense while maintaining an artisanal process, we have created a greener, healthier and more subtle incense.<\/p>",
-          "button_label": "To discover",
-          "button_link": "",
-          "show_parallax": false
         }
       },
       "image-with-text-block": {
@@ -919,7 +878,7 @@
               "mobile_image": "shopify:\/\/shop_images\/banniere-mobile-suncatcher3_817602f1-4672-4753-bf73-b53b1a8959fb.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
-              "subheading": "",
+              "subheading": "C'est le retour du beau temps !",
               "title": "Laisse entrer la lumière et la magie avec nos suncatchers",
               "button_1_text": "Découvrir",
               "button_1_link": "shopify:\/\/products\/suncatchers-bloom-x-atelier-intuitive",
@@ -951,7 +910,7 @@
               "mobile_image": "shopify:\/\/shop_images\/banniere-principale-mobile2_774bbb34-6a01-44b5-92de-2658694ef917.png",
               "apply_overlay": false,
               "content_position": "middleLeft",
-              "subheading": "100% naturel - Made in France - Artisanal",
+              "subheading": "Made in France, Naturel, Artisanal",
               "title": "L'encens à consumer sans modération",
               "button_1_text": "Découvrir",
               "button_1_link": "shopify:\/\/collections\/coffrets-dencens",
@@ -1001,12 +960,46 @@
         "settings": {
           "enable": true
         }
+      },
+      "1643234571e6d89435": {
+        "type": "featured-collections",
+        "blocks": {
+          "1643234571e6d89435-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "coffrets-dencens",
+              "title": "Coffrets d'encens naturels",
+              "grid_items_count": 8,
+              "button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1643234571e6d89435-0"
+        ],
+        "settings": {
+          "title": "Fais ton choix !",
+          "layout_mode": "carousel",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "34284f6b-efef-4b82-92ee-eb3d967aeda0": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "Fais ton choix !",
+          "html": "<div class=\"ButtonGroup ButtonGroup--spacingSmall \"><a href=\"\/collections\/coffrets-dencens\" class=\"ButtonGroup__Item Button\">Découvrir tous nos parfums<\/a><\/div>"
+        }
       }
     },
     "content_for_index": [
       "693fcf00-f730-4d47-9867-6de5622a86cd",
       "051d91d9-3c76-4b41-881d-79bf7604ec8d",
-      "16490712728d2ba2ed",
+      "34284f6b-efef-4b82-92ee-eb3d967aeda0",
       "1643234571e6d89435",
       "16273235254943b040",
       "1653319576fa33a4f6",
