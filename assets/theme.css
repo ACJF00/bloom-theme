@@ -11494,3 +11494,7 @@ h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading.u-h1 {
   line-height: 1 !important;
   color: #233f41 !important;
 }
+
+.SectionHeader h2 {
+  background: black;
+}
