@@ -11488,3 +11488,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   line-height: 1 !important;
   color: #233f41 !important;
 }
+
+h2 {
+  font-size: 12rem !important;
+}
+}
