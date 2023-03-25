@@ -989,6 +989,9 @@
       },
       "34284f6b-efef-4b82-92ee-eb3d967aeda0": {
         "type": "custom-html",
+        "custom_css": [
+          "h2 {margin: auto;}"
+        ],
         "settings": {
           "subheading": "",
           "title": "Fais ton choix !",
