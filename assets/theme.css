@@ -11497,4 +11497,5 @@ h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading.u-h1 {
 
 .SectionHeader h2 {
   background: black;
+  font-size: 4rem !important;
 }
