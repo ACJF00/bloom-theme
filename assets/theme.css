@@ -11468,15 +11468,14 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  */
 
 #section-693fcf00-f730-4d47-9867-6de5622a86cd .Button {
-    border: none !important;
+  border: none !important;
   padding: 1rem 5rem;
 }
 
 #section-051d91d9-3c76-4b41-881d-79bf7604ec8d .Button {
-    border: none !important;
+  border: none !important;
   padding: 1rem 5rem;
 }
-
 
 #section-693fcf00-f730-4d47-9867-6de5622a86cd .Button::before {
   background-color: #233f41 !important;
@@ -11494,9 +11493,4 @@ h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading.u-h1 {
   width: 40% !important;
   line-height: 1 !important;
   color: #233f41 !important;
-}
-
-h2 {
-  font-size: 12rem !important;
-}
 }
