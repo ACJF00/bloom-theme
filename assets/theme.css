@@ -11492,4 +11492,5 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   width: 40% !important;
   line-height: 1 !important;
   color: #233f41 !important;
+  margin-bottom: 1rem;
 }
