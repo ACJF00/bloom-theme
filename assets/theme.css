@@ -11461,9 +11461,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 }
 
-//CHARLY CSS
-
-//BUTTONS
+/**
+ * ----------------------------------------------------------------------------
+ * CHARLY CSS
+ * ----------------------------------------------------------------------------
+ */
 
 #section-693fcf00-f730-4d47-9867-6de5622a86cd .Button {
     border: none !important;
