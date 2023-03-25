@@ -11482,7 +11482,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 //FIRST SLIDESHOW TITLE
 h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading.u-h1 {
-  color: #dea3a2 !important;
-  font-size: 3rem;
+font-size: 4rem !important;
+    width: 40%;
+    line-height: 1;
+    color: #233f41 !important;
 }
 
