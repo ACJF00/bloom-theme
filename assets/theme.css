@@ -11496,9 +11496,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     color: #233f41 !important;
 }
 
+.SectionHeader h2 {
+    width: 40% !important;
+}
+
 #section-693fcf00-f730-4d47-9867-6de5622a86cd .SectionHeader h2 {
   font-size: 4rem !important;
-  width: 40% !important;
   line-height: 1 !important;
   margin-bottom: 1rem;
 }
