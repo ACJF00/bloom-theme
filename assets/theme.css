@@ -11475,11 +11475,3 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
       background-color: #dea3a2 !important;
     border-radius: 30px;
 }
-
-@font-face {
-font-family: "Marga";src: url({{ "Margadeth.woff2" | asset_url }}) format("woff2");
-}
-
-h2 {
-  font-family: Marga !important;
-}
