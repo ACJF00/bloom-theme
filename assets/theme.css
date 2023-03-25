@@ -11482,7 +11482,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 //FIRST SLIDESHOW TITLE
-h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading {
+.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading {
   font-size: 4rem !important;
   width: 40% !important;
   line-height: 1 !important;
