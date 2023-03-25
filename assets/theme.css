@@ -11465,12 +11465,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 //BUTTONS
 
-#section-693fcf00-f730-4d47-9867-6de5622a86cd .Button, {
-  border: none !important;
-  padding: 1rem 5rem;
-}
-
-#section-693fcf00-f730-4d47-9867-6de5622a86cd .Button {
+#section-693fcf00-f730-4d47-9867-6de5622a86cd .Button, #section-051d91d9-3c76-4b41-881d-79bf7604ec8d .Button {
     border: none !important;
   padding: 1rem 5rem;
 }
