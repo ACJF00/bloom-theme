@@ -76,7 +76,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".Heading.u-h6 {font-size: 1.1rem; font-weight: 500}"
+          ".Heading.u-h6 {font-size: 1.1rem; font-weight: 500;}"
         ],
         "settings": {
           "use_sticky_header": true,
@@ -971,6 +971,35 @@
           "text_color": "#ffffff",
           "button_color": "#ffffff",
           "button_background": "#ffc8b0"
+        }
+      },
+      "ezfy-custom-fonts": {
+        "type": "ezfy-custom-fonts",
+        "blocks": {
+          "0fb52921-2a61-4f1b-bea7-e1adb7d84517": {
+            "type": "image",
+            "settings": {
+              "name": "customfont",
+              "custom_font_weight": "none",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Made-Gentle.woff?v=1679727309",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": true,
+              "apply_h4": true,
+              "apply_h5": true,
+              "apply_h6": true,
+              "apply_span": true,
+              "apply_p": true,
+              "apply_custom": ""
+            }
+          }
+        },
+        "block_order": [
+          "0fb52921-2a61-4f1b-bea7-e1adb7d84517"
+        ],
+        "settings": {
+          "enable": true
         }
       }
     },
