@@ -802,13 +802,46 @@
           "title": "Fais ton choix !",
           "html": "<h3>Plutôt fleuri, fruité, épicé, boisé... ?<\/h3>\n\n<div class=\"ButtonGroup ButtonGroup--spacingSmall \"><a href=\"\/collections\/coffrets-dencens\" class=\"ButtonGroup__Item Button\">Découvrir tous nos parfums<\/a><\/div>"
         }
+      },
+      "c9089ada-8a6f-45b6-9a61-0f9218641fb3": {
+        "type": "slideshow",
+        "blocks": {
+          "9b65c198-04ff-4162-9817-25bdf5ec60ba": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banniere-principale-desktop.png",
+              "mobile_image": "shopify:\/\/shop_images\/banniere-principale-mobile2_774bbb34-6a01-44b5-92de-2658694ef917.png",
+              "apply_overlay": false,
+              "content_position": "middleLeft",
+              "subheading": "25 bâtons de tes 5 senteurs favorites",
+              "title": "Pas facile de faire un choix... Teste les toutes !",
+              "button_1_text": "Je veux tester !",
+              "button_1_link": "shopify:\/\/collections\/coffrets-dencens",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "9b65c198-04ff-4162-9817-25bdf5ec60ba"
+        ],
+        "settings": {
+          "show_fullscreen": false,
+          "show_arrow": false,
+          "autoplay": true,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#ffffff",
+          "button_background": "#ffc8b0"
+        }
       }
     },
     "content_for_index": [
       "693fcf00-f730-4d47-9867-6de5622a86cd",
       "051d91d9-3c76-4b41-881d-79bf7604ec8d",
       "34284f6b-efef-4b82-92ee-eb3d967aeda0",
-      "1643234571e6d89435"
+      "1643234571e6d89435",
+      "c9089ada-8a6f-45b6-9a61-0f9218641fb3"
     ],
     "blocks": {
       "14060646107696862457": {
