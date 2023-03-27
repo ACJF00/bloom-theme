@@ -1,12 +1,350 @@
+<div class="dg-slider" id="dg-slider-{{ section.id  | replace: '-', '_'}}">
+  {% assign width = section.settings.image_width %}
+  {% if section.settings.image1 %}
+  {{ section.settings.image1 | img_url: width }}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <a href="{{ section.settings.slider1_call_to_action }}">
+      <img src="{{ section.settings.image1 | img_url: width }}" alt="" loading="lazy" />
+      {% if section.settings.slider1_call_to_action %}
+      <span>{{ section.settings.slider1_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image2 %}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <a href="{{ section.settings.slider2_call_to_action }}">
+      <img src="{{ section.settings.image2 | img_url: width }}" alt="" loading="lazy" />
+      {% if section.settings.slider2_call_to_action %}
+      <span>{{ section.settings.slider2_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image3 %}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <a href="{{ section.settings.slider3_call_to_action }}">
+      <img src="{{ section.settings.image3 | img_url: width }}" alt="" loading="lazy" />
+      {% if section.settings.slider3_call_to_action %}
+      <span>{{ section.settings.slider3_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image4 %}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <a href="{{ section.settings.slider4_call_to_action }}">
+      <img src="{{ section.settings.image4 | img_url: width }}" alt="" loading="lazy" />
+      {% if section.settings.slider4_call_to_action %}
+      <span>{{ section.settings.slider4_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image5 %}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <a href="{{ section.settings.slider5_call_to_action }}">
+      <img src="{{ section.settings.image5 | img_url: width }}" alt="" loading="lazy" />
+      {% if section.settings.slider5_call_to_action %}
+      <span>{{ section.settings.slider5_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image6 %}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <a href="{{ section.settings.slider6_call_to_action }}">
+      <img src="{{ section.settings.image6 | img_url: width }}" alt="" loading="lazy" />
+      {% if section.settings.slider6_call_to_action %}
+      <span>{{ section.settings.slider6_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image7 %}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <img src="{{ section.settings.image7 | img_url: width }}" alt="" loading="lazy" />
+    <a href="{{ section.settings.slider7_call_to_action }}">
+      {% if section.settings.slider7_call_to_action %}
+      <span>{{ section.settings.slider7_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image8 %}
+  <div class="dg-slide">
+    <div class="dg-slide-inner">
+      <a href="{{ section.settings.slider8_call_to_action }}">
+        <img src="{{ section.settings.image8 | img_url: width }}" alt="" loading="lazy" />
+        {% if section.settings.slider8_call_to_action %}
+        <span>{{ section.settings.slider8_call_to_action_text }}</span>
+        {% endif %}
+      </a>
+    </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image9 %}
+  <div class="dg-slide"><div class="dg-slide-inner">
+    <a href="{{ section.settings.slider9_call_to_action }}">
+      <img src="{{ section.settings.image9 | img_url: width }}" alt="" loading="lazy" />
+      {% if section.settings.slider9_call_to_action %}
+      <span>{{ section.settings.slider9_call_to_action_text }}</span>
+      {% endif %}
+    </a>
+    </div>
+  </div>
+  {% endif %}   
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "DG slider",
+  "class": "index-section section-dg-slider",	
+  "settings": [
+	{
+      "type": "text",
+      "id": "image_width",
+      "label": "Taille max de l'image",
+	  "default": "1900x"
+    },
+	{
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider1_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider1_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+	{
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider2_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider2_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+	{
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider3_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider3_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+	{
+
+      "type": "image_picker",
+      "id": "image4",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider4_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider4_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+
+	{
+      "type": "image_picker",
+      "id": "image5",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider5_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider5_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+	{
+      "type": "image_picker",
+      "id": "image6",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider6_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider6_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+	{
+      "type": "image_picker",
+      "id": "image7",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider7_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider7_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+	{
+      "type": "image_picker",
+      "id": "image8",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider8_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider8_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	},
+	{
+      "type": "image_picker",
+      "id": "image9",
+      "label": "Image"
+    },
+	{
+  	  "id": "slider9_call_to_action",
+  	  "type": "url",
+  	  "label": "Lien (optionnel)"
+	},
+	{
+  	  "id": "slider9_call_to_action_text",
+  	  "type": "text",
+  	  "label": "Texte (optionnel)"
+	}
+  ],
+  "presets": [
+    {
+      "name": "Carrousel d'images",
+      "category": "Dgeo dev - Tutoriels"      
+    }
+  ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script defer>
+  
+  let nombresImagesPc{{ section.id  | replace: '-', '_'}} = 6;
+  let nombresImagesTablet{{ section.id  | replace: '-', '_'}} = 3;
+  let nombresImagesMobile{{ section.id  | replace: '-', '_'}} = 2;
 
-{% javascript %}
-{% endjavascript %}
+  $('#dg-slider-{{ section.id  | replace: '-', '_'}}').slick({      
+    autoplay: true,
+    autoplaySpeed: 4000,   
+    arrows : true,
+    dots: false,        
+    slidesToShow: nombresImagesPc{{ section.id  | replace: '-', '_'}},
+    slidesToScroll: nombresImagesPc{{ section.id  | replace: '-', '_'}}, 
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: nombresImagesTablet{{ section.id  | replace: '-', '_'}},
+          slidesToScroll: nombresImagesTablet{{ section.id  | replace: '-', '_'}}
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: nombresImagesMobile{{ section.id  | replace: '-', '_'}},
+          slidesToScroll: nombresImagesMobile{{ section.id  | replace: '-', '_'}}
+        }
+      }
+    ]    
+  });
+
+</script>
+<style>
+  .dg-slider {
+    margin:0 auto 2rem auto;
+  }
+  .dg-slider img { width:100%; max-width:100%; }
+
+  .dg-slider .slick-track {
+    width:100%;
+  }
+  .dg-slider .slick-prev, .dg-slider .slick-next { 
+    z-index:1000;
+    width:35px;
+    height:35px;
+  }
+  .dg-slider .slick-prev {
+    left:15px;
+  }   
+  .dg-slider .slick-next {
+    right:15px;  
+  }
+  .dg-slider .slick-prev:before, .dg-slider .slick-next:before {
+    font-size:35px;
+  }
+  .dg-slide { 
+    text-align:center;    
+  }
+  .slick-dots { bottom:-30px; }
+  .slick-dots li button:before { font-size:16px; }
+  
+  .dg-slide-inner {    
+    margin:10px;
+    /* padding:10px;
+    // background:#EEE;*/
+    box-shadow:0 0 5px rgba(000,000,000,0.3);
+  }
+  .dg-slide-inner a span { 
+    text-decoration:none;
+    padding:15px;    
+    font-weight:bold;
+    font-size:17px;
+    margin:10px auto;
+    display:inline-block;
+    color:initial;
+    /*background:#000;
+    color:#FFF;*/
+  }
+  .dg-slide-inner a:hover { 
+    /*color:#FFF;*/
+  }
+</style/>
