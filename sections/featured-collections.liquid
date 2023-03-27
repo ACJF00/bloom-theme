@@ -44,11 +44,7 @@
     {%- else -%}
       {%- assign collection = collections[section.blocks.first.settings.collection] -%}
 
-      {%- if collection != empty -%}
-        <h2 class="SectionHeader__Heading Heading u-h1">{{ section.blocks.first.settings.title | default: collection.title }}</h2>
-      {%- else -%}
-        <h2 class="SectionHeader__Heading Heading u-h1">{{ 'home_page.onboarding.collection_title' | t }}</h2>
-      {%- endif -%}
+
     {%- endif -%}
     </div>
   </header>
