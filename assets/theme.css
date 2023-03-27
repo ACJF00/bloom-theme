@@ -11505,3 +11505,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   line-height: 1 !important;
   margin-bottom: 1rem;
 }
+
+#shopify-section-1643234571e6d89435 h2 {
+    display: none;
+}
