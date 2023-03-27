@@ -20,7 +20,7 @@
       "type": "custom-html",
       "custom_css": [
         "section {background-color: #ffe0d3;}",
-        ".histoire-resume {display: flex; align-items: center; padding: 80px 60px; min-height: 630px; justify-content: center;}",
+        ".histoire-resume {display: flex; align-items: center; min-height: 630px; justify-content: center;}",
         ".histoire-resume-text {width: 30%;}",
         "h2 {font-size: 2.5rem; width: 500px; text-align: left; line-height: 50px;}",
         ".histoire-resume-img {width: 570px; background-color: #dfa79d; border-radius: 75px; height: 340px; margin-top: 11rem;}",
