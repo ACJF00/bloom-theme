@@ -22,7 +22,7 @@
         ".histoire-resume {background-color: #ffe0d3; display: flex; align-items: center; padding: 80px 60px; min-height: 630px; justify-content: center;}",
         ".histoire-resume-text {width: 30%;}",
         ".histoire-resume-img {width: 570px; background-color: #dfa79d; border-radius: 75px; height: 340px;}",
-        "img {width: 470px; position: relative; height: auto; top: -177px; left: 80px;}"
+        "img {width: 454px; position: relative; height: auto; top: -210px; left: 80px;}"
       ],
       "settings": {
         "subheading": "",
