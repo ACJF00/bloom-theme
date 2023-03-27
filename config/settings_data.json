@@ -800,7 +800,7 @@
             "type": "collection",
             "settings": {
               "collection": "coffrets-collection",
-              "title": "d",
+              "title": "",
               "grid_items_count": 30,
               "button_text": ""
             }
@@ -810,7 +810,7 @@
           "67c2badb-65b9-49b5-ad7e-5d5fe314460a"
         ],
         "custom_css": [
-          "img {max-height: 550px !important; width: auto !important;}"
+          "img {max-height: 620px !important; width: auto !important; margin-left: 10%;}"
         ],
         "settings": {
           "title": "Fais ton choix !",
