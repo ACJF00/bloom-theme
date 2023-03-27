@@ -19,15 +19,17 @@
     "14ab455e-5623-4202-a1b4-941512ff4eee": {
       "type": "custom-html",
       "custom_css": [
-        ".histoire-resume {background-color: #ffe0d3; display: flex; align-items: center; padding: 80px 60px; min-height: 630px; justify-content: center;}",
+        "section {background-color: #ffe0d3;}",
+        " .histoire-resume {display: flex; align-items: center; padding: 80px 60px; min-height: 630px; justify-content: center;}",
         ".histoire-resume-text {width: 30%;}",
         ".histoire-resume-img {width: 570px; background-color: #dfa79d; border-radius: 75px; height: 340px;}",
-        "img {width: 454px; position: relative; height: auto; top: -210px; left: 80px;}"
+        "img {width: 454px; position: relative; height: auto; top: -210px; left: 80px;}",
+        "p {margin-right: 3rem; text-align: justify;}"
       ],
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div>\n          <div class=\"histoire-resume\">\n      <div class=\"histoire-resume-text\">\n        <h2>Une histoire à consumer sans modération<\/h2>\n        <p>\n          Et ouais... on est trois mecs ! Yon, Hugo et Alexis.Avec Bloom,\n          l'ambition c'était de pouvoir proposer une alternative naturelle, made\n          in France, et saine aux encens souvent chimiques du commerce (tu sais,\n          ceux à 30 centimes avec les buddhas et les tigres). Bref, revenir à\n          l'essentiel et se faire plaisir sans compromettre sa santé.\n        <\/p>\n      <\/div>\n      <div class=\"histoire-resume-img\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Equipe_1200x.png?v=1679923801\" alt=\"Equipe\">\n      <\/div>\n    <\/div>\n    <\/div>"
+        "html": "<div>\n          <div class=\"histoire-resume\">\n      <div class=\"histoire-resume-text\">\n        <h2>Une histoire à consumer sans modération<\/h2>\n        <p>\n          Et ouais... on est trois mecs ! Yon, Hugo et Alexis.<\/p>\n<p>\nAvec Bloom,\n          l'ambition c'était de pouvoir proposer une alternative naturelle, made\n          in France, et saine aux encens souvent chimiques du commerce (tu sais,\n          ceux à 30 centimes avec les buddhas et les tigres). Bref, revenir à\n          l'essentiel et se faire plaisir sans compromettre sa santé.\n        <\/p>\n      <\/div>\n      <div class=\"histoire-resume-img\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Equipe_1200x.png?v=1679923801\" alt=\"Equipe\">\n      <\/div>\n    <\/div>\n    <\/div>"
       }
     }
   },
