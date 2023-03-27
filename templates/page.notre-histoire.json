@@ -31,10 +31,36 @@
         "title": "C'est promis !",
         "html": "<div class=\"main-label-container\">\n      <h2>C'est promis !<\/h2>\n      <div class=\"main-label-subcontainer\">\n        <h3>nous on n'a pas peur de l'engagement<\/h3>\n        <div class=\"display-label\">\n          <div class=\"single-label\">\n            <img src=\"Fichier_5_page-0001.png\" alt=\"\">\n            <p>\n              Evidemment, on ne fait pas de mal aux petites betes à poils, à\n              plumes, à écailles... pas de graisse animale chez nous !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"Fichier_3_page-0001.png\" alt=\"\">\n            <p>\n              Tous nos bâtons d'encens sont 100% naturels et composés de\n              seulement o ingredients: du bois, des fleurs, des truits, de la\n              gomme, des epices, de la resine... et c'est tout !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"Fichier_1_page-0001.png\" alt=\"\">\n            <p>\n              L'entiéreté de nôtre processus de rabrication s'ettectue dans e\n              Sud-Ouest : de la fabrication à l'expédition\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"Fichier_4_page-0001.png\">\n            <p>\n              Chaque bâton est tabriqué à la main dans notre unique atelier au\n              coeur des Pyrénées\n            <\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>"
       }
+    },
+    "ff324340-db38-43ba-92fc-3af685814c87": {
+      "type": "dg-slider",
+      "settings": {
+        "image_width": "1900x",
+        "image1": "shopify:\/\/shop_images\/vegan.png",
+        "slider1_call_to_action": "",
+        "slider1_call_to_action_text": "",
+        "slider2_call_to_action": "",
+        "slider2_call_to_action_text": "",
+        "slider3_call_to_action": "",
+        "slider3_call_to_action_text": "",
+        "slider4_call_to_action": "",
+        "slider4_call_to_action_text": "",
+        "slider5_call_to_action": "",
+        "slider5_call_to_action_text": "",
+        "slider6_call_to_action": "",
+        "slider6_call_to_action_text": "",
+        "slider7_call_to_action": "",
+        "slider7_call_to_action_text": "",
+        "slider8_call_to_action": "",
+        "slider8_call_to_action_text": "",
+        "slider9_call_to_action": "",
+        "slider9_call_to_action_text": ""
+      }
     }
   },
   "order": [
     "14ab455e-5623-4202-a1b4-941512ff4eee",
-    "8d6b439f-c897-4285-8ef9-50642a6e07f5"
+    "8d6b439f-c897-4285-8ef9-50642a6e07f5",
+    "ff324340-db38-43ba-92fc-3af685814c87"
   ]
 }
