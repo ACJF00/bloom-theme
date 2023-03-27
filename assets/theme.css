@@ -11490,7 +11490,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   border-radius: 30px;
 }
 
-#section-051d91d9-3c76-4b41-881d-79bf7604ec8d .Button::before,
+#section-051d91d9-3c76-4b41-881d-79bf7604ec8d .Button::before
 {
   background-color: #dea3a2 !important;
   border-radius: 30px;
@@ -11522,4 +11522,9 @@ h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading.u-h1 {
   font-size: 4rem!important;
     line-height: 1!important;
     margin-bottom: 1rem;
-}    
+}
+
+header.SectionHeader {
+    width: 100%;
+    margin-left: 7rem;
+}
