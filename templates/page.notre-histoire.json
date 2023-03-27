@@ -32,10 +32,27 @@
         "title": "",
         "html": "<div>\n          <div class=\"histoire-resume\">\n      <div class=\"histoire-resume-text\">\n        <h2>Une histoire à consumer sans modération<\/h2>\n        <p>\n          Et ouais... on est trois mecs ! Yon, Hugo et Alexis.<\/p>\n<p>\nAvec Bloom,\n          l'ambition c'était de pouvoir proposer une alternative naturelle, made\n          in France, et saine aux encens souvent chimiques du commerce (tu sais,\n          ceux à 30 centimes avec les buddhas et les tigres). Bref, revenir à\n          l'essentiel et se faire plaisir sans compromettre sa santé.\n        <\/p>\n      <\/div>\n      <div class=\"histoire-resume-img\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Equipe_1200x.png?v=1679923801\" alt=\"Equipe\">\n      <\/div>\n    <\/div>\n    <\/div>"
       }
+    },
+    "8d6b439f-c897-4285-8ef9-50642a6e07f5": {
+      "type": "custom-html",
+      "custom_css": [
+        ".main-label-container {display: flex; flex-direction: column; align-items: center; position: relative;}",
+        ".main-label-subcontainer {display: flex; flex-direction: column; align-items: center; justify-content: center; background: #ffe0d3; padding: 80px 0px;}",
+        ".display-label {display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; width: 80%; padding: 80px 0;}",
+        ".single-label {display: flex; align-items: center; justify-content: center; gap: 30px;}",
+        ".single-label p {width: 40%;}",
+        "section {background: blue;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "C'est promis !",
+        "html": "<div class=\"main-label-container\">\n      <h2>C'est promis !<\/h2>\n      <div class=\"main-label-subcontainer\">\n        <h3>nous on n'a pas peur de l'engagement<\/h3>\n        <div class=\"display-label\">\n          <div class=\"single-label\">\n            <img src=\"Fichier_5_page-0001.png\" alt=\"\">\n            <p>\n              Evidemment, on ne fait pas de mal aux petites betes à poils, à\n              plumes, à écailles... pas de graisse animale chez nous !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"Fichier_3_page-0001.png\" alt=\"\">\n            <p>\n              Tous nos bâtons d'encens sont 100% naturels et composés de\n              seulement o ingredients: du bois, des fleurs, des truits, de la\n              gomme, des epices, de la resine... et c'est tout !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"Fichier_1_page-0001.png\" alt=\"\">\n            <p>\n              L'entiéreté de nôtre processus de rabrication s'ettectue dans e\n              Sud-Ouest : de la fabrication à l'expédition\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"Fichier_4_page-0001.png\">\n            <p>\n              Chaque bâton est tabriqué à la main dans notre unique atelier au\n              coeur des Pyrénées\n            <\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>"
+      }
     }
   },
   "order": [
     "f584e227-1050-49e1-8963-4f25e206464a",
-    "14ab455e-5623-4202-a1b4-941512ff4eee"
+    "14ab455e-5623-4202-a1b4-941512ff4eee",
+    "8d6b439f-c897-4285-8ef9-50642a6e07f5"
   ]
 }
