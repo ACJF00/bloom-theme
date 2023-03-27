@@ -11519,3 +11519,14 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 #shopify-section-1643234571e6d89435 .SectionHeader.SectionHeader--center {
     display: none;
 }
+
+#section-footer {
+  position: relative;
+}
+
+svg-footer-wave {
+  position: absolute;
+  top: -220px;
+}
+
+
