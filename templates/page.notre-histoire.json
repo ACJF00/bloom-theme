@@ -2,6 +2,9 @@
   "sections": {
     "f584e227-1050-49e1-8963-4f25e206464a": {
       "type": "text-with-image",
+      "custom_css": [
+        "h2 {font-size: 4rem;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "Une histoire à consumer sans modération",
