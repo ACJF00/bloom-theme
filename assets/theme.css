@@ -11532,6 +11532,15 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 {
     background: #ffe0d3;
     padding-bottom: 10rem;
+  margin-top: -120px;
+position: relative;
 }
+
+#slideshow-svg-pink {
+  position: absolute
+  top: -30%;
+  z-index: -1;
+}
+
 
 
