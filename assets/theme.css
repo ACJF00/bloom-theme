@@ -11508,7 +11508,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     width: 40% !important;
 }
 
-#section-693fcf00-f730-4d47-9867-6de5622a86cd .SectionHeader h2 {
+#section-693fcf00-f730-4d47-9867-6de5622a86cd .SectionHeader h2,
+#section-c9089ada-8a6f-45b6-9a61-0f9218641fb3 .SectionHeader h2
+{
   font-size: 4rem !important;
   line-height: 1 !important;
   margin-bottom: 1rem;
@@ -11516,10 +11518,4 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 #shopify-section-1643234571e6d89435 .SectionHeader.SectionHeader--center {
     display: none;
-}
-
-h2.SectionHeader__Heading.SectionHeader__Heading--emphasize.Heading.u-h1 {
-  font-size: 4rem!important;
-    line-height: 1!important;
-    margin-bottom: 1rem;
 }
