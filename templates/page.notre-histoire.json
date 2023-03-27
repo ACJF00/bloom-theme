@@ -20,9 +20,9 @@
       "type": "custom-html",
       "custom_css": [
         "section {background-color: #ffe0d3;}",
-        " .histoire-resume {display: flex; align-items: center; padding: 80px 60px; min-height: 630px; justify-content: center;}",
+        ".histoire-resume {display: flex; align-items: center; padding: 80px 60px; min-height: 630px; justify-content: center;}",
         ".histoire-resume-text {width: 30%;}",
-        ".histoire-resume-img {width: 570px; background-color: #dfa79d; border-radius: 75px; height: 340px;}",
+        ".histoire-resume-img {width: 570px; background-color: #dfa79d; border-radius: 75px; height: 340px; margin-top: 7rem;}",
         "img {width: 454px; position: relative; height: auto; top: -210px; left: 80px;}",
         "p {margin-right: 3rem; text-align: justify;}"
       ],
