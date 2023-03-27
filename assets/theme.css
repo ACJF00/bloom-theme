@@ -11537,7 +11537,7 @@ position: relative;
 }
 
 #slideshow-svg-pink {
-  position: absolute
+  position: absolute;
   top: -30%;
   z-index: -1;
 }
