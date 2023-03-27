@@ -254,7 +254,7 @@
   ],
   "presets": [
     {
-      "name": "Carrousel d'images",
+      "name": "Carrousel d'images infite",
       "category": "Dgeo dev - Tutoriels"      
     }
   ]
@@ -268,7 +268,7 @@
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script defer>
   
-  let nombresImagesPc{{ section.id  | replace: '-', '_'}} = 6;
+  let nombresImagesPc{{ section.id  | replace: '-', '_'}} = 4;
   let nombresImagesTablet{{ section.id  | replace: '-', '_'}} = 3;
   let nombresImagesMobile{{ section.id  | replace: '-', '_'}} = 2;
 
@@ -302,7 +302,11 @@
   .dg-slider {
     margin:0 auto 2rem auto;
   }
-  .dg-slider img { width:100%; max-width:100%; }
+  .dg-slider img { 
+  width: 60%;
+    max-width: 100%;
+    margin: auto;
+  }
 
   .dg-slider .slick-track {
     width:100%;
@@ -329,9 +333,6 @@
   
   .dg-slide-inner {    
     margin:10px;
-    /* padding:10px;
-    // background:#EEE;*/
-    box-shadow:0 0 5px rgba(000,000,000,0.3);
   }
   .dg-slide-inner a span { 
     text-decoration:none;
@@ -341,10 +342,7 @@
     margin:10px auto;
     display:inline-block;
     color:initial;
-    /*background:#000;
-    color:#FFF;*/
   }
   .dg-slide-inner a:hover { 
-    /*color:#FFF;*/
   }
 </style/>

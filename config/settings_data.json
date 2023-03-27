@@ -67,9 +67,9 @@
         "settings": {
           "enable_bar": true,
           "home_page_only": false,
-          "background": "#ffc8b0",
+          "background": "#233f41",
           "text_color": "#ffffff",
-          "content": "On t'offre la livraison à partir de 70€ d'achat ! 🎁",
+          "content": "On t'offre la livraison à partir de 60€ d'achat ! 🎁",
           "link": "shopify:\/\/collections\/selection-de-noel"
         }
       },
@@ -795,6 +795,7 @@
       },
       "1643234571e6d89435": {
         "type": "featured-collections",
+        "disabled": true,
         "blocks": {
           "67c2badb-65b9-49b5-ad7e-5d5fe314460a": {
             "type": "collection",
@@ -828,7 +829,7 @@
           "h2 {margin: auto; font-size: 3rem; margin-bottom: -70px;}",
           ".Button {border: none !important; padding: 1rem 5rem; color: white; font-weight: bold;}",
           ".Button::before {background-color: #233f41 !important; border-radius: 30px;}",
-          "section {padding: 80px 0 0 0;}"
+          "section {padding: 80px 0 50px 0;}"
         ],
         "settings": {
           "subheading": "",
@@ -867,12 +868,42 @@
           "button_color": "#ffffff",
           "button_background": "#ffc8b0"
         }
+      },
+      "af33752d-0471-4e68-a117-14b38f7dfc84": {
+        "type": "dg-slider",
+        "settings": {
+          "image_width": "1900x",
+          "image1": "shopify:\/\/shop_images\/coffrets-detoures_0003_DSC08975.png",
+          "slider1_call_to_action": "",
+          "slider1_call_to_action_text": "",
+          "image2": "shopify:\/\/shop_images\/coffrets-detoures_0001_DSC08984.png",
+          "slider2_call_to_action": "",
+          "slider2_call_to_action_text": "",
+          "image3": "shopify:\/\/shop_images\/DSC08987.png",
+          "slider3_call_to_action": "",
+          "slider3_call_to_action_text": "",
+          "image4": "shopify:\/\/shop_images\/coffrets-detoures_0002_DSC08980.png",
+          "slider4_call_to_action": "",
+          "slider4_call_to_action_text": "",
+          "image5": "shopify:\/\/shop_images\/coffrets-detoures_0004_DSC08970.png",
+          "slider5_call_to_action": "",
+          "slider5_call_to_action_text": "",
+          "slider6_call_to_action": "",
+          "slider6_call_to_action_text": "",
+          "slider7_call_to_action": "",
+          "slider7_call_to_action_text": "",
+          "slider8_call_to_action": "",
+          "slider8_call_to_action_text": "",
+          "slider9_call_to_action": "",
+          "slider9_call_to_action_text": ""
+        }
       }
     },
     "content_for_index": [
       "693fcf00-f730-4d47-9867-6de5622a86cd",
       "051d91d9-3c76-4b41-881d-79bf7604ec8d",
       "34284f6b-efef-4b82-92ee-eb3d967aeda0",
+      "af33752d-0471-4e68-a117-14b38f7dfc84",
       "1643234571e6d89435",
       "16273235254943b040",
       "ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3"
