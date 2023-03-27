@@ -978,7 +978,7 @@
           "1643234571e6d89435-0"
         ],
         "custom_css": [
-          "section {border-top: none;}"
+          "div {border-top: none;}"
         ],
         "settings": {
           "title": "Fais ton choix !",
