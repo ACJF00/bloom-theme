@@ -1,5 +1,27 @@
 {
   "sections": {
+    "3f123115-1188-4451-afbe-38cf857d1fa4": {
+      "type": "featured-product",
+      "settings": {
+        "subheading": "",
+        "title": "Featured product",
+        "show_headings_on_mobile": true,
+        "product": "",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_description": true,
+        "description_below_add_to_cart": false,
+        "selector_mode": "dropdown",
+        "show_color_swatch": false,
+        "show_color_carousel": false,
+        "show_quantity_selector": true,
+        "show_inventory_quantity": false,
+        "inventory_quantity_threshold": 0,
+        "show_price_in_button": false,
+        "show_payment_button": true,
+        "show_pickup_availability": false
+      }
+    },
     "f584e227-1050-49e1-8963-4f25e206464a": {
       "type": "text-with-image",
       "settings": {
@@ -14,6 +36,7 @@
     }
   },
   "order": [
+    "3f123115-1188-4451-afbe-38cf857d1fa4",
     "f584e227-1050-49e1-8963-4f25e206464a"
   ]
 }
