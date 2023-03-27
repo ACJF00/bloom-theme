@@ -11506,6 +11506,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-bottom: 1rem;
 }
 
-#shopify-section-1643234571e6d89435 h2 {
+#shopify-section-1643234571e6d89435 .SectionHeader.SectionHeader--center {
     display: none;
 }
