@@ -11524,7 +11524,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   position: relative;
 }
 
-svg-footer-wave {
+#svg-footer-wave {
   position: absolute;
   top: -220px;
 }
