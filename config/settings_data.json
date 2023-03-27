@@ -796,18 +796,18 @@
       "1643234571e6d89435": {
         "type": "featured-collections",
         "blocks": {
-          "1643234571e6d89435-0": {
+          "67c2badb-65b9-49b5-ad7e-5d5fe314460a": {
             "type": "collection",
             "settings": {
-              "collection": "coffrets-dencens",
-              "title": "Coffrets d'encens naturels",
-              "grid_items_count": 8,
+              "collection": "coffrets-collection",
+              "title": "",
+              "grid_items_count": 30,
               "button_text": ""
             }
           }
         },
         "block_order": [
-          "1643234571e6d89435-0"
+          "67c2badb-65b9-49b5-ad7e-5d5fe314460a"
         ],
         "custom_css": [
 
@@ -815,7 +815,7 @@
         "settings": {
           "title": "Fais ton choix !",
           "layout_mode": "carousel",
-          "show_product_info": true,
+          "show_product_info": false,
           "show_vendor": false,
           "show_color_swatch": false,
           "grid_mobile_items_per_row": "2",
