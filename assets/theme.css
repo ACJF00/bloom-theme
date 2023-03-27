@@ -11467,7 +11467,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  * ----------------------------------------------------------------------------
  */
 
-#section-693fcf00-f730-4d47-9867-6de5622a86cd .Button {
+#section-693fcf00-f730-4d47-9867-6de5622a86cd .Button,
+#section-c9089ada-8a6f-45b6-9a61-0f9218641fb3 .Button
+{
   border: none!important;
     padding: 0.6rem 5rem;
     text-transform: unset;
