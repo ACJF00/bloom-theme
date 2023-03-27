@@ -978,10 +978,10 @@
           "1643234571e6d89435-0"
         ],
         "custom_css": [
-          ". {border-top: none;}"
+
         ],
         "settings": {
-          "title": "Fais ton choix !",
+          "title": "",
           "layout_mode": "carousel",
           "show_product_info": true,
           "show_vendor": false,
