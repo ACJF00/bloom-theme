@@ -11562,6 +11562,10 @@ position: relative;
   z-index: 2;
 }
 
+.histoire-title h2 span {
+  text-decoration: underline;
+}
+
 .histoire-resume {
   display: flex;
   align-items: center;
