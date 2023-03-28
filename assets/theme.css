@@ -11526,7 +11526,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 #svg-footer-wave {
   position: absolute;
-  bottom: 87%;
+  bottom: 600px;
 }
 
 #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 {
