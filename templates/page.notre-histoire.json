@@ -3,7 +3,7 @@
     "2c32d02b-16c1-4325-92e1-09b6b69c7093": {
       "type": "custom-html",
       "custom_css": [
-
+        "section {padding: 0;}"
       ],
       "settings": {
         "subheading": "",
