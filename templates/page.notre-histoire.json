@@ -3,6 +3,7 @@
     "2c32d02b-16c1-4325-92e1-09b6b69c7093": {
       "type": "custom-html",
       "custom_css": [
+        "section {padding: 0;}",
         "div {background-color: #ffe0d3; position: relative; height: 330px; display: flex; justify-content: center; z-index: -2;}",
         "svg {position: absolute; z-index: -1; width: 100vw;}",
         "h2 {margin-top: 100px;}"
@@ -16,7 +17,7 @@
     "14ab455e-5623-4202-a1b4-941512ff4eee": {
       "type": "custom-html",
       "custom_css": [
-        "section {background-color: #ffe0d3;}",
+        "section {background-color: #ffe0d3; border-top: none;}",
         ".histoire-resume {display: flex; align-items: center; min-height: 630px; justify-content: center;}",
         ".histoire-resume-text {width: 30%;}",
         "h2 {font-size: 2.5rem; width: 500px; text-align: left; line-height: 50px;}",
