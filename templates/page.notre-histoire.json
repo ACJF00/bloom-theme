@@ -3,7 +3,7 @@
     "14ab455e-5623-4202-a1b4-941512ff4eee": {
       "type": "custom-html",
       "custom_css": [
-        "section {background-color: #ffdfd1;}",
+        "section {background-color: #ffe0d3;}",
         ".histoire-resume {display: flex; align-items: center; min-height: 630px; justify-content: center;}",
         ".histoire-resume-text {width: 30%;}",
         "h2 {font-size: 2.5rem; width: 500px; text-align: left; line-height: 50px;}",
@@ -25,7 +25,7 @@
         ".display-label {display: flex; gap: 10px; width: 80%; flex-wrap: wrap;}",
         ".single-label {display: flex; align-items: center; justify-content: center; gap: 30px; width: 45%; margin: auto; max-height: 160px;}",
         ".single-label p {width: 60%;}",
-        "section {background: #ffe0d3;}"
+        "section {background: #ffdfd1;}"
       ],
       "settings": {
         "subheading": "",
