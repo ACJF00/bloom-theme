@@ -1,30 +1,16 @@
 {
   "sections": {
-    "2cd7bea5-672a-484d-81d4-8d32d26e96fc": {
-      "type": "image-with-text-block",
+    "2c32d02b-16c1-4325-92e1-09b6b69c7093": {
+      "type": "custom-html",
+      "custom_css": [
+        "div {background-color: #ffe0d3; position: relative; height: 330px; display: flex; justify-content: center;}",
+        "svg {position: absolute; z-index: -1;}",
+        "h2 {margin-top: 100px;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/wave.svg",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "#0b0a0a",
-        "block_size": "small",
-        "title": "Your story",
-        "content": "",
-        "button_label": "",
-        "button_link": "",
-        "show_parallax": true
-      }
-    },
-    "ba66c4e2-59c5-41e4-9bef-c6fe4332c5bf": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "section_size": "small",
-        "image": "shopify:\/\/shop_images\/wave.svg",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
         "subheading": "",
-        "title": "Incenses we trust",
-        "content": ""
+        "title": "",
+        "html": "<div>\n      <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 1440 320\">\n        <path fill=\"#ffcbb4\" fill-opacity=\"1\" d=\"M0,160L80,186.7C160,213,320,267,480,256C640,245,800,171,960,154.7C1120,139,1280,181,1360,202.7L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z\"><\/path>\n      <\/svg>\n      <h2>Incenses we trust<\/h2>\n    <\/div>"
       }
     },
     "14ab455e-5623-4202-a1b4-941512ff4eee": {
@@ -62,8 +48,7 @@
     }
   },
   "order": [
-    "2cd7bea5-672a-484d-81d4-8d32d26e96fc",
-    "ba66c4e2-59c5-41e4-9bef-c6fe4332c5bf",
+    "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "14ab455e-5623-4202-a1b4-941512ff4eee",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5"
   ]
