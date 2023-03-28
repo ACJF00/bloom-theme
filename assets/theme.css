@@ -11586,11 +11586,12 @@ position: relative;
   margin-top: 11rem;
 }
 .histoire-resume-img img {
-  width: 454px;
-  position: relative;
-  height: auto;
-  top: -210px;
-  left: 80px;
+    width: 504px;
+    position: relative;
+    height: auto;
+    top: -265px;
+    left: 80px;
+    z-index: 1;
 }
 .histoire-resume-text p {
   margin-right: 3rem;
