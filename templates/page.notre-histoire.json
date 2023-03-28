@@ -1,5 +1,19 @@
 {
   "sections": {
+    "2cd7bea5-672a-484d-81d4-8d32d26e96fc": {
+      "type": "image-with-text-block",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wave.svg",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#0b0a0a",
+        "block_size": "small",
+        "title": "Your story",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "show_parallax": true
+      }
+    },
     "ba66c4e2-59c5-41e4-9bef-c6fe4332c5bf": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -48,6 +62,7 @@
     }
   },
   "order": [
+    "2cd7bea5-672a-484d-81d4-8d32d26e96fc",
     "ba66c4e2-59c5-41e4-9bef-c6fe4332c5bf",
     "14ab455e-5623-4202-a1b4-941512ff4eee",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5"
