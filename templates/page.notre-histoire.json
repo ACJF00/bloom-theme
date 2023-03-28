@@ -12,23 +12,6 @@
         "html": "<div class=\"histoire-title\">\n      <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 1440 320\">\n        <path fill=\"#ffcbb4\" fill-opacity=\"1\" d=\"M0,160L80,186.7C160,213,320,267,480,256C640,245,800,171,960,154.7C1120,139,1280,181,1360,202.7L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z\"><\/path>\n      <\/svg>\n      <h2>Incenses we trust<\/h2>\n    <\/div>\n    <div>\n      <div class=\"histoire-resume\">\n        <div class=\"histoire-resume-text\">\n          <h2>Une histoire à consumer sans modération<\/h2>\n          <p>Et ouais... on est trois mecs ! Yon, Hugo et Alexis.<\/p>\n          <p>\n            Avec Bloom, l'ambition c'était de pouvoir proposer une alternative\n            naturelle, made in France, et saine aux encens souvent chimiques du\n            commerce (tu sais, ceux à 30 centimes avec les buddhas et les\n            tigres). Bref, revenir à l'essentiel et se faire plaisir sans\n            compromettre sa santé.\n          <\/p>\n        <\/div>\n        <div class=\"histoire-resume-img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Equipe_1200x.png?v=1679923801\" alt=\"Equipe\">\n        <\/div>\n      <\/div>\n    <\/div>"
       }
     },
-    "14ab455e-5623-4202-a1b4-941512ff4eee": {
-      "type": "custom-html",
-      "custom_css": [
-        "section {background-color: #ffe0d3;}",
-        ".histoire-resume {display: flex; align-items: center; min-height: 630px; justify-content: center;}",
-        ".histoire-resume-text {width: 30%;}",
-        "h2 {font-size: 2.5rem; width: 500px; text-align: left; line-height: 50px;}",
-        ".histoire-resume-img {width: 570px; background-color: #dfa79d; border-radius: 75px; height: 340px; margin-top: 11rem;}",
-        "img {width: 454px; position: relative; height: auto; top: -210px; left: 80px;}",
-        "p {margin-right: 3rem; text-align: justify;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<div>\n          <div class=\"histoire-resume\">\n      <div class=\"histoire-resume-text\">\n        <h2>Une histoire à consumer sans modération<\/h2>\n        <p>\n          Et ouais... on est trois mecs ! Yon, Hugo et Alexis.<\/p>\n<p>\nAvec Bloom,\n          l'ambition c'était de pouvoir proposer une alternative naturelle, made\n          in France, et saine aux encens souvent chimiques du commerce (tu sais,\n          ceux à 30 centimes avec les buddhas et les tigres). Bref, revenir à\n          l'essentiel et se faire plaisir sans compromettre sa santé.\n        <\/p>\n      <\/div>\n      <div class=\"histoire-resume-img\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Equipe_1200x.png?v=1679923801\" alt=\"Equipe\">\n      <\/div>\n    <\/div>\n    <\/div>"
-      }
-    },
     "8d6b439f-c897-4285-8ef9-50642a6e07f5": {
       "type": "custom-html",
       "custom_css": [
@@ -48,7 +31,6 @@
   },
   "order": [
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
-    "14ab455e-5623-4202-a1b4-941512ff4eee",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5"
   ]
 }
