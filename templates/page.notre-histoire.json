@@ -3,7 +3,7 @@
     "ba66c4e2-59c5-41e4-9bef-c6fe4332c5bf": {
       "type": "image-with-text-overlay",
       "settings": {
-        "section_size": "normal",
+        "section_size": "small",
         "image": "shopify:\/\/shop_images\/wave.svg",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
