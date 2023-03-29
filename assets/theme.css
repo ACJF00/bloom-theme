@@ -11640,6 +11640,7 @@ position: relative;
   top: 32px;
   left: -71px;
   z-index: 1;
+  max-width: none;
 }
 
 .process-container-txt {
