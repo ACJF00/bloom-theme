@@ -11677,6 +11677,10 @@ position: relative;
   .process-container {
     flex-direction: column;
 }
+  #shopify-section-template--18472263582029__a2d8d2ea-cd4e-4237-99dd-205dd4de924d video {
+    width: 280px;
+    height: 290px;
+}
   #shopify-section-template--18472263582029__8d6b439f-c897-4285-8ef9-50642a6e07f5 {
     display: none;
   }
