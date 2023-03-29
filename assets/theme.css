@@ -11656,5 +11656,15 @@ position: relative;
 .histoire-resume {
   flex-direction: column-reverse;
 }
+  .histoire-resume-img {
+    width: 340px;
+    border-radius: 45px;
+    height: 180px;
+}
+  .histoire-resume-img img {
+    width: 274px;
+    top: -161px;
+    left: 0px;
+}
 }
 
