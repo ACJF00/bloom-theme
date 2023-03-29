@@ -34,7 +34,7 @@
       "type": "custom-html",
       "custom_css": [
         "section {background-color: #ffe0d3;}",
-        "section h2 {text-align: center;}"
+        "section h2 {text-align: center; margin: 0;}"
       ],
       "settings": {
         "subheading": "",
