@@ -66,6 +66,9 @@
       "block_order": [
         "8ae4bc73-b2fa-421b-a033-4a41bc388074"
       ],
+      "custom_css": [
+        "section {margin-bottom: -80px;}"
+      ],
       "settings": {
         "show_fullscreen": false,
         "show_arrow": false,
