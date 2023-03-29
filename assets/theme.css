@@ -11641,6 +11641,8 @@ position: relative;
   left: -71px;
   z-index: 1;
   max-width: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .process-container-txt {
