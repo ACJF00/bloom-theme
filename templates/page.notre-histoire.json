@@ -58,12 +58,25 @@
         "button_link": "",
         "show_parallax": true
       }
+    },
+    "f1e6ddb6-805a-45d4-b783-4d183cdfeab1": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "image": "shopify:\/\/shop_images\/products-display.png",
+        "image_position": "left",
+        "content": "",
+        "link_text": "",
+        "link_url": ""
+      }
     }
   },
   "order": [
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
-    "4ec729ca-9308-4731-9644-b790077e7fe9"
+    "4ec729ca-9308-4731-9644-b790077e7fe9",
+    "f1e6ddb6-805a-45d4-b783-4d183cdfeab1"
   ]
 }
