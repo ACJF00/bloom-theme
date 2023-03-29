@@ -45,30 +45,35 @@
         "html": "<div class=\"process-main-container\">\n         <div class=\"process-container\">\n      <div class=\"process-container-img\">\n        <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Photo_process_de_prod_1900x.png?v=1680095870\" alt=\"\">\n      <\/div>\n      <div class=\"process-container-txt\">\n        <h2>On te montre tout !<\/h2>\n        <p>Découvre notre processus de fabrication<\/p>\n        <video width=\"320\" height=\"240\" controls=\"\">\n          <source src=\"video.mp4\" type=\"video\/mp4\">\n      <\/source><\/video>\n<\/div>\n    <\/div>\n<div class=\"ButtonGroup ButtonGroup--spacingSmall \"><a href=\"\/collections\/coffrets-dencens\" class=\"ButtonGroup__Item Button\">Découvre nos parfums<\/a><\/div>\n    <\/div>"
       }
     },
-    "4ec729ca-9308-4731-9644-b790077e7fe9": {
-      "type": "image-with-text-block",
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29": {
+      "type": "slideshow",
+      "blocks": {
+        "8ae4bc73-b2fa-421b-a033-4a41bc388074": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/products-display.png",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8ae4bc73-b2fa-421b-a033-4a41bc388074"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/products-display.png",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "#1c1b1b",
-        "block_size": "small",
-        "title": "",
-        "content": "",
-        "button_label": "",
-        "button_link": "",
-        "show_parallax": true
-      }
-    },
-    "f1e6ddb6-805a-45d4-b783-4d183cdfeab1": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "image": "shopify:\/\/shop_images\/products-display.png",
-        "image_position": "left",
-        "content": "",
-        "link_text": "",
-        "link_url": ""
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
       }
     }
   },
@@ -76,7 +81,6 @@
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
-    "4ec729ca-9308-4731-9644-b790077e7fe9",
-    "f1e6ddb6-805a-45d4-b783-4d183cdfeab1"
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29"
   ]
 }
