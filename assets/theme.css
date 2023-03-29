@@ -11607,4 +11607,43 @@ position: relative;
     margin-top: -130px;
 }
 
+.process-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.process-main-container button {
+  width: 10%;
+  margin: auto;
+}
+
+.process-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.process-container-img {
+  background-color: #c3dbbc;
+  border-radius: 75px;
+  width: 374px;
+  height: 580px;
+}
+
+.process-container-img img {
+  width: 444px;
+  position: relative;
+  height: auto;
+  top: 32px;
+  left: -71px;
+  z-index: 1;
+}
+
+.process-container-txt {
+  text-align: center;
+}
+
 
