@@ -33,7 +33,8 @@
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d": {
       "type": "custom-html",
       "custom_css": [
-        "section {background-color: #ffe0d3;}"
+        "section {background-color: #ffe0d3;}",
+        "section h2 {text-align: center;}"
       ],
       "settings": {
         "subheading": "",
