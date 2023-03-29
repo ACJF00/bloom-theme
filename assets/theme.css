@@ -11653,6 +11653,28 @@ position: relative;
 
 
 @media screen and (max-width: 768px) {
+  /**
+ * ----------------------------------------------------------------------------
+ * Homepage
+ * ----------------------------------------------------------------------------
+ */
+  
+  #section-693fcf00-f730-4d47-9867-6de5622a86cd .SectionHeader h2, 
+  #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 .SectionHeader h2 {
+    font-size: 3rem!important;
+    text-align: center;
+}
+
+  .template-index .SectionHeader h2 {
+    width: 100%!important;
+}
+
+  /**
+ * ----------------------------------------------------------------------------
+ * Notre histoire
+ * ----------------------------------------------------------------------------
+ */
+  
 .histoire-resume {
   flex-direction: column-reverse;
 }
