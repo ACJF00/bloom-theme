@@ -44,11 +44,26 @@
         "title": "",
         "html": "<div class=\"process-main-container\">\n         <div class=\"process-container\">\n      <div class=\"process-container-img\">\n        <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Photo_process_de_prod_1900x.png?v=1680095870\" alt=\"\">\n      <\/div>\n      <div class=\"process-container-txt\">\n        <h2>On te montre tout !<\/h2>\n        <p>Découvre notre processus de fabrication<\/p>\n        <video width=\"320\" height=\"240\" controls=\"\">\n          <source src=\"video.mp4\" type=\"video\/mp4\">\n      <\/source><\/video>\n<\/div>\n    <\/div>\n<div class=\"ButtonGroup ButtonGroup--spacingSmall \"><a href=\"\/collections\/coffrets-dencens\" class=\"ButtonGroup__Item Button\">Découvre nos parfums<\/a><\/div>\n    <\/div>"
       }
+    },
+    "4ec729ca-9308-4731-9644-b790077e7fe9": {
+      "type": "image-with-text-block",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/products-display.png",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#1c1b1b",
+        "block_size": "small",
+        "title": "",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "show_parallax": true
+      }
     }
   },
   "order": [
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
-    "a2d8d2ea-cd4e-4237-99dd-205dd4de924d"
+    "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
+    "4ec729ca-9308-4731-9644-b790077e7fe9"
   ]
 }
