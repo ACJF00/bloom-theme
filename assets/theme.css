@@ -11669,5 +11669,10 @@ position: relative;
   .histoire-resume-text {
     width: 100%;
 }
+  .histoire-resume-text h2, .process-container-txt h2 {
+    font-size: 1.5rem!important;
+    width: 100%;
+    text-align: center;
+}
 }
 
