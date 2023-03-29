@@ -29,10 +29,19 @@
         "title": "C'est promis !",
         "html": "<div class=\"main-label-container\">\n      <div class=\"main-label-subcontainer\">\n        <h3>nous on n'a pas peur de l'engagement<\/h3>\n        <div class=\"display-label\">\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/vegan_1900x.png?v=1679948694\" alt=\"\">\n<p>Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/naturel_1900x.png?v=1679948694\" alt=\"\">\n            <p>\n              Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/france_1900x.png?v=1679948694\" alt=\"\">\n            <p>\n              L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/artisanal_1900x.png?v=1679948694\">\n            <p>\n              Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées\n            <\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>"
       }
+    },
+    "a2d8d2ea-cd4e-4237-99dd-205dd4de924d": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"process-main-container\">\n         <div class=\"process-container\">\n      <div class=\"process-container-img\">\n        <img src=\"Photo%20process%20de%20prod.png\" alt=\"\">\n      <\/div>\n      <div class=\"process-container-txt\">\n        <h2>On te montre tout !<\/h2>\n        <p>Découvre notre processus de fabrication<\/p>\n        <!-- add a video -->\n        <video width=\"320\" height=\"240\" controls=\"\">\n          <source src=\"video.mp4\" type=\"video\/mp4\">\n      <\/source><\/video>\n<\/div>\n    <\/div>\n    <button>Découvre nos parfums<\/button> \n    <\/div>"
+      }
     }
   },
   "order": [
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
-    "8d6b439f-c897-4285-8ef9-50642a6e07f5"
+    "8d6b439f-c897-4285-8ef9-50642a6e07f5",
+    "a2d8d2ea-cd4e-4237-99dd-205dd4de924d"
   ]
 }
