@@ -35,7 +35,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div class=\"process-main-container\">\n         <div class=\"process-container\">\n      <div class=\"process-container-img\">\n        <img src=\"Photo%20process%20de%20prod.png\" alt=\"\">\n      <\/div>\n      <div class=\"process-container-txt\">\n        <h2>On te montre tout !<\/h2>\n        <p>Découvre notre processus de fabrication<\/p>\n        <!-- add a video -->\n        <video width=\"320\" height=\"240\" controls=\"\">\n          <source src=\"video.mp4\" type=\"video\/mp4\">\n      <\/source><\/video>\n<\/div>\n    <\/div>\n    <button>Découvre nos parfums<\/button> \n    <\/div>"
+        "html": "<div class=\"process-main-container\">\n         <div class=\"process-container\">\n      <div class=\"process-container-img\">\n        <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Photo_process_de_prod_1900x.png?v=1680095870\" alt=\"\">\n      <\/div>\n      <div class=\"process-container-txt\">\n        <h2>On te montre tout !<\/h2>\n        <p>Découvre notre processus de fabrication<\/p>\n        <video width=\"320\" height=\"240\" controls=\"\">\n          <source src=\"video.mp4\" type=\"video\/mp4\">\n      <\/source><\/video>\n<\/div>\n    <\/div>\n    <button>Découvre nos parfums<\/button> \n    <\/div>"
       }
     },
     "ac3a71a4-fa23-47a8-bdcb-bd7316f5cc9c": {
