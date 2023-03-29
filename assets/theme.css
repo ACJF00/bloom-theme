@@ -11683,7 +11683,7 @@ position: relative;
 }
 
   #shopify-section-34284f6b-efef-4b82-92ee-eb3d967aeda0 .Button {
-    padding: 1rem 1rem;
+    padding: 1rem !important;
     font-size: 0.7rem;
 }
 
