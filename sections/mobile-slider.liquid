@@ -3,13 +3,14 @@
     <h3>nous on n'a pas peur de l'engagement</h3>
     <div class="display-label">
       <div class="image-container">
+        {% if section.settings.image1 %}
         <img
-          src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/vegan_1900x.png?v=1679948694"
+          src="{{ section.settings.image1 | img_url: width }}" alt="" loading="lazy"           
           alt="Image 1"
           class="image"
           data-text="Evidemment, on ne fait pas de mal aux petites bêtes à poils, à
-        plumes, à écailles... pas de graisse animale chez nous !"
-        />
+        plumes, à écailles... pas de graisse animale chez nous !"/>
+      {% endif %}
         <img
           src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/naturel_1900x.png?v=1679948694"
           alt="Image 2"
@@ -67,10 +68,16 @@
 {% schema %}
 {
 "name": "Mobile slider",
-"settings": [],
+"settings": [
+  {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image"
+    }
+],
 "presets": [
     {
-      "name": "Mobile slider",
+      "name": "Carrousel d'images infinite",
       "category": "Dgeo dev - Tutoriels"      
     }
   ]
