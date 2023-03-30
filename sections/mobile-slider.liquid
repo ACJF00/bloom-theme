@@ -1,4 +1,4 @@
-<section id="section-{{ section.id }}">
+<section id="section-{{ section.id }}" class="hide-tablet-and-up">
 <div class="slider-mobile-container">
     {%- if section.settings.subheading != blank or section.settings.title != blank -%}
       <header class="SectionHeader SectionHeader--center">
@@ -144,15 +144,8 @@
 
 {% stylesheet %}
 
-section {
-    display: none;
-  }
 
 @media screen and (max-width: 768px) {
-
-section {
-    display: block;
-}
 
   
 .slider-mobile-container {
