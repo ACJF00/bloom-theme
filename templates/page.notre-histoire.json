@@ -112,7 +112,8 @@
       "settings": {
         "background": "#ffffff",
         "subheading": "Sub-heading",
-        "title": "Title"
+        "title": "Title",
+        "image": "shopify:\/\/shop_images\/equipe-process.png"
       }
     }
   },
