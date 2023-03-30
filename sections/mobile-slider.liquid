@@ -9,33 +9,38 @@
           alt="Image 1"
           class="image"
           data-text="Evidemment, on ne fait pas de mal aux petites bêtes à poils, à
-        plumes, à écailles... pas de graisse animale chez nous !"/>
+        plumes, à écailles... pas de graisse animale chez nous !"
+        />
       {% endif %}
-        <img
-          src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/naturel_1900x.png?v=1679948694"
-          alt="Image 2"
-          class="image"
-          data-text="Tous nos bâtons d'encens sont 100% naturels et composés de
+      {% if section.settings.image2 %}
+      <img
+        src="{{ section.settings.image2 | img_url: width }}" alt="" loading="lazy"           
+        alt="Image 1"
+        class="image"
+        data-text="Tous nos bâtons d'encens sont 100% naturels et composés de
         seulement 6 ingredients: du bois, des fleurs, des fruits, de la
         gomme, des épices, de la résine... et c'est tout !"
         />
-        <img
-          src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/france_1900x.png?v=1679948694"
-          alt="Image 3"
-          class="image"
-          data-text="L'entièreté de nôtre processus de fabrication s'effectue dans le
-        Sud-Ouest : de la fabrication à l'expédition"
-        />
-        <img
-          src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/artisanal_1900x.png?v=1679948694"
-          alt="Image 4"
-          class="image"
-          data-text="Chaque bâton est fabriqué à la main dans notre unique atelier au
-        coeur des Pyrénées"
-        />
+    {% endif %}
+    {% if section.settings.image3 %}
+    <img
+      src="{{ section.settings.image3 | img_url: width }}" alt="" loading="lazy"           
+      alt="Image 1"
+      class="image"
+      data-text="L'entièreté de nôtre processus de fabrication s'effectue dans le
+      Sud-Ouest : de la fabrication à l'expédition"
+      />
+  {% endif %}
+  {% if section.settings.image4 %}
+  <img
+    src="{{ section.settings.image3 | img_url: width }}" alt="" loading="lazy"           
+    alt="Image 1"
+    class="image"
+    data-text="Chaque bâton est fabriqué à la main dans notre unique atelier au
+    coeur des Pyrénées"
+    />
+{% endif %}
       </div>
-      <!-- rounded down arrow icon  -->
-
       <div class="arrow-container">
         <?xml version="1.0" encoding="utf-8"?><svg
           version="1.1"
