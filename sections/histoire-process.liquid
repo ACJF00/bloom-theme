@@ -10,7 +10,15 @@
         <iframe width="560" height="315" src="{{ section.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
 </div>
     </div>
-<div class="ButtonGroup ButtonGroup--spacingSmall "><a href="/collections/coffrets-dencens" class="ButtonGroup__Item Button">Découvre nos parfums</a></div>
+              {%- if section.settings.button_1_text != blank %}
+              <div class="SectionHeader__ButtonWrapper">
+                <div class="ButtonGroup ButtonGroup--spacingSmall">
+                  {%- if section.settings.button_1_text != blank -%}
+                    <a href="{{ section.settings.button_1_link }}" class="ButtonGroup__Item Button">{{ section.settings.button_1_text | escape }}</a>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
     </div>
 </section>
 
@@ -49,12 +57,12 @@
                 {
           "type": "text",
           "id": "button_1_text",
-          "label": "Text"
+          "label": "Text Button"
         },
         {
           "type": "url",
           "id": "button_1_link",
-          "label": "Link"
+          "label": "Link Button"
         }
       ],
       "presets": [
