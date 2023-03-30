@@ -78,12 +78,18 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
+    },
+    "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3": {
+      "type": "mobile-slider",
+      "settings": {
+      }
     }
   },
   "order": [
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
-    "4daab5ee-2f53-4265-a221-dbbd9fecef29"
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29",
+    "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3"
   ]
 }
