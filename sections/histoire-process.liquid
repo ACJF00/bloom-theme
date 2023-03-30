@@ -1,12 +1,114 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+<section id="section-{{ section.id }}">
+<div class="process-main-container">
+         <div class="process-container">
+      <div class="process-container-img">
+        <img src="//cdn.shopify.com/s/files/1/0501/3562/9982/files/Photo_process_de_prod_1900x.png?v=1680095870" alt="">
+      </div>
+      <div class="process-container-txt">
+        <h2>On te montre tout !</h2>
+        <p>Découvre notre processus de fabrication</p>
+        <video width="320" height="240" controls="">
+          <source src="video.mp4" type="video/mp4">
+      </source></video>
+</div>
+    </div>
+<div class="ButtonGroup ButtonGroup--spacingSmall "><a href="/collections/coffrets-dencens" class="ButtonGroup__Item Button">Découvre nos parfums</a></div>
+    </div>
+</section>
 
-{% stylesheet %}
-{% endstylesheet %}
+    {% schema %}
+      {
+      "name": "Histoire - Process",
+      "settings": [
+        {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+              {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Title"
+    }
+      ],
+      "presets": [
+          {
+            "name": "Histoire - Process",
+            "category": "Charly MUZIOTTI"      
+          }
+        ]
+      }
+      {% endschema %}
+
+<style>
+
+          section {
+          background-color: {{ section.settings.background }};
+        }
+
+  .process-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.process-main-container button {
+  width: 10%;
+  margin: auto;
+}
+
+.process-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.process-container-img {
+  background-color: #c3dbbc;
+  border-radius: 75px;
+  width: 374px;
+  height: 580px;
+}
+
+.process-container-img img {
+  width: 444px;
+  position: relative;
+  height: auto;
+  top: 32px;
+  left: -71px;
+  z-index: 1;
+  max-width: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.process-container-txt {
+  text-align: center;
+  padding-top: 125px;
+}
+
+  @media screen and (max-width: 768px) {
+    .process-container {
+    flex-direction: column;
+}
+  video {
+    width: 280px;
+    height: 290px;
+}
+  #shopify-section-template--18472263582029__8d6b439f-c897-4285-8ef9-50642a6e07f5 {
+    display: none;
+  }
+  }
+</style>
 
 {% javascript %}
 {% endjavascript %}
