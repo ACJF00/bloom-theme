@@ -55,9 +55,9 @@
 
 <style>
 
-          section {
+section {
           background-color: {{ section.settings.background }};
-        }
+}
 
   .process-main-container {
   display: flex;
@@ -80,6 +80,31 @@
 .process-container-txt {
   text-align: center;
   padding-top: 125px;
+}
+
+
+section h2 {
+  text-align: center;
+  margin: 0;
+}
+.Button {
+  border: none !important;
+  padding: 0.6rem 5rem;
+  text-transform: unset;
+  font-size: 1.5rem;
+  font-family: customfont;
+  letter-spacing: initial;
+  color: #ffffff;
+  margin-top: 4rem;
+}
+.Button::before {
+  background-color: #233f41 !important;
+  border-radius: 30px;
+}
+video {
+  border-radius: 40px;
+  width: 330px;
+  height: 340px;
 }
 
   @media screen and (max-width: 768px) {
