@@ -60,6 +60,12 @@
   "name": "Histoire Desktop Labels",
 "settings": [
       {
+  "type": "color",
+  "id": "background",
+  "label": "Background",
+  "default": "#ffffff"
+},
+      {
       "type": "text",
       "id": "subheading",
       "label": "Sub-heading",
@@ -122,9 +128,9 @@
 {% endschema %}
 
 <style>
-          section {
-            background-color: {{ section.settings.background }};
-          }
+  section {
+  background-color: {{ section.settings.background }};
+  }
 
   .main-label-container {
   display: flex;
