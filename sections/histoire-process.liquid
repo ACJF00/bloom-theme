@@ -8,7 +8,7 @@
         <h2 class="title-style-1">{{section.settings.title}}</h2>
         <h3>{{section.settings.subheading}}</h3>
         <video width="320" height="240" controls="">
-          <source src="video.mp4" type="video/mp4">
+          <source src="{{ section.settings.video }}" type="video/mp4">
       </source></video>
 </div>
     </div>
@@ -42,7 +42,12 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
-    }
+    },
+        {
+  "type": "video",
+  "id": "video",
+  "label": "A Shopify-hosted video"
+}
       ],
       "presets": [
           {
