@@ -29,6 +29,7 @@
     },
     "8d6b439f-c897-4285-8ef9-50642a6e07f5": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".main-label-container {display: flex; flex-direction: column; align-items: center; position: relative;}",
         ".main-label-subcontainer {display: flex; flex-direction: column; align-items: center;}",
@@ -43,6 +44,22 @@
         "subheading": "",
         "title": "C'est promis !",
         "html": "<div class=\"main-label-container\">\n      <div class=\"main-label-subcontainer\">\n        <h3>nous on n'a pas peur de l'engagement<\/h3>\n        <div class=\"display-label\">\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/vegan_1900x.png?v=1679948694\" alt=\"\">\n<p>Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/naturel_1900x.png?v=1679948694\" alt=\"\">\n            <p>\n              Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/france_1900x.png?v=1679948694\" alt=\"\">\n            <p>\n              L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/artisanal_1900x.png?v=1679948694\">\n            <p>\n              Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées\n            <\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>"
+      }
+    },
+    "e7076a7a-3414-4d43-91af-15a7d78df5b2": {
+      "type": "histoire-desktop-label",
+      "settings": {
+        "background": "#ffcbb4",
+        "subheading": "Sub-heading",
+        "title": "Title",
+        "image1": "shopify:\/\/shop_images\/vegan.png",
+        "image1_text": "Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !",
+        "image2": "shopify:\/\/shop_images\/naturel.png",
+        "image2_text": "Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !",
+        "image3": "shopify:\/\/shop_images\/france.png",
+        "image3_text": "L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition",
+        "image4": "shopify:\/\/shop_images\/artisanal.png",
+        "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées"
       }
     },
     "6b4ad0f8-e8f8-4628-b841-34832221e873": {
@@ -90,30 +107,14 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
-    },
-    "e7076a7a-3414-4d43-91af-15a7d78df5b2": {
-      "type": "histoire-desktop-label",
-      "settings": {
-        "background": "#ffcbb4",
-        "subheading": "Sub-heading",
-        "title": "Title",
-        "image1": "shopify:\/\/shop_images\/vegan.png",
-        "image1_text": "Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !",
-        "image2": "shopify:\/\/shop_images\/naturel.png",
-        "image2_text": "Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !",
-        "image3": "shopify:\/\/shop_images\/france.png",
-        "image3_text": "L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition",
-        "image4": "shopify:\/\/shop_images\/artisanal.png",
-        "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées"
-      }
     }
   },
   "order": [
     "99909ab4-69bf-4b06-9c42-8844c1723c5d",
     "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
+    "e7076a7a-3414-4d43-91af-15a7d78df5b2",
     "6b4ad0f8-e8f8-4628-b841-34832221e873",
-    "4daab5ee-2f53-4265-a221-dbbd9fecef29",
-    "e7076a7a-3414-4d43-91af-15a7d78df5b2"
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29"
   ]
 }
