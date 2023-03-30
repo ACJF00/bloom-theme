@@ -120,10 +120,18 @@
 {% endschema %}
 
 {% stylesheet %}
-body {
-margin: 0;
-}
 
+  section {
+    display: none;
+  }
+
+@media screen and (max-width: 768px) {
+
+    section {
+    display: block;
+  }
+
+  
 .slider-mobile-container {
 background-color: #ffe0d3;
 padding-bottom: 3rem;
@@ -177,6 +185,7 @@ transition: opacity 0s ease-in-out 0s;
 .text.show {
 opacity: 1;
 transition: opacity 0.7s ease-in-out 0s;
+}
 }
 
 {% endstylesheet %}
