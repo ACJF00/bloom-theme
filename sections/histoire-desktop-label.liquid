@@ -1,12 +1,107 @@
+<section id="section-{{ section.id }}">
+<div class="main-label-container">
+      <div class="main-label-subcontainer">
+        <h3>nous on n'a pas peur de l'engagement</h3>
+        <div class="display-label">
+          <div class="single-label">
+            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/vegan_1900x.png?v=1679948694" alt="">
+<p>Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !
+            </p>
+          </div>
+          <div class="single-label">
+            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/naturel_1900x.png?v=1679948694" alt="">
+            <p>
+              Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !
+            </p>
+          </div>
+          <div class="single-label">
+            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/france_1900x.png?v=1679948694" alt="">
+            <p>
+              L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition
+            </p>
+          </div>
+          <div class="single-label">
+            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/artisanal_1900x.png?v=1679948694">
+            <p>
+              Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+  
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+  "name": "Histoire Desktop Labels",
+"settings": [
+      {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Title"
+    },
+  {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image"
+    },
+    {
+  	  "id": "image1_text",
+  	  "type": "text",
+  	  "label": "Description image 1"
+	},
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image"
+    },
+    {
+  	  "id": "image2_text",
+  	  "type": "text",
+  	  "label": "Description image 2"
+	},
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Image"
+    },
+    {
+  	  "id": "image3_text",
+  	  "type": "text",
+  	  "label": "Description image 3"
+	},
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "Image"
+    },
+    {
+  	  "id": "image4_text",
+  	  "type": "text",
+  	  "label": "Description image 4"
+	}
+],
+  "presets": [
+      {
+        "name": "Histoire first section",
+        "category": "Charly MUZIOTTI"
+      }
+    ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<style>
+          section {
+            background-color: {{ section.settings.background }};
+          }
+  </style>
 
 {% javascript %}
 {% endjavascript %}
