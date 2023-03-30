@@ -40,18 +40,8 @@
         "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées"
       }
     },
-    "6b4ad0f8-e8f8-4628-b841-34832221e873": {
-      "type": "histoire-process",
-      "settings": {
-        "background": "#ffe0d3",
-        "subheading": "Sub-heading",
-        "title": "Title",
-        "image": "shopify:\/\/shop_images\/equipe-process.png"
-      }
-    },
     "8d6b439f-c897-4285-8ef9-50642a6e07f5": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         ".main-label-container {display: flex; flex-direction: column; align-items: center; position: relative;}",
         ".main-label-subcontainer {display: flex; flex-direction: column; align-items: center;}",
@@ -68,8 +58,18 @@
         "html": "<div class=\"main-label-container\">\n      <div class=\"main-label-subcontainer\">\n        <h3>nous on n'a pas peur de l'engagement<\/h3>\n        <div class=\"display-label\">\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/vegan_1900x.png?v=1679948694\" alt=\"\">\n<p>Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/naturel_1900x.png?v=1679948694\" alt=\"\">\n            <p>\n              Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/france_1900x.png?v=1679948694\" alt=\"\">\n            <p>\n              L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition\n            <\/p>\n          <\/div>\n          <div class=\"single-label\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/artisanal_1900x.png?v=1679948694\">\n            <p>\n              Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées\n            <\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>"
       }
     },
+    "6b4ad0f8-e8f8-4628-b841-34832221e873": {
+      "type": "histoire-process",
+      "settings": {
+        "background": "#ffe0d3",
+        "subheading": "Sub-heading",
+        "title": "Title",
+        "image": "shopify:\/\/shop_images\/equipe-process.png"
+      }
+    },
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -118,8 +118,8 @@
     "99909ab4-69bf-4b06-9c42-8844c1723c5d",
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3",
-    "6b4ad0f8-e8f8-4628-b841-34832221e873",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
+    "6b4ad0f8-e8f8-4628-b841-34832221e873",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
     "4daab5ee-2f53-4265-a221-dbbd9fecef29"
   ]
