@@ -19,7 +19,7 @@
           {% endif %}
         </div>
         <div class="histoire-resume-img">
-          <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/Equipe_1200x.png?v=1679923801" alt="Equipe">
+          <img src="{{ mobile_image | img_url: 'x800' }}" alt="{{ mobile_image.alt | escape }}">
         </div>
       </div>
     </div>
