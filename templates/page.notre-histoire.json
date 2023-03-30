@@ -51,7 +51,8 @@
         "background": "#ffe0d3",
         "subheading": "Découvre notre processus de fabrication",
         "title": "On te montre tout !",
-        "image": "shopify:\/\/shop_images\/equipe-process.png"
+        "image": "shopify:\/\/shop_images\/equipe-process.png",
+        "video": "shopify:\/\/files\/videos\/file_example_MP4_480_1_5MG.mp4"
       }
     },
     "4daab5ee-2f53-4265-a221-dbbd9fecef29": {
