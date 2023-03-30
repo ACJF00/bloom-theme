@@ -2,7 +2,7 @@
 <div class="process-main-container">
          <div class="process-container">
       <div class="process-container-img">
-        <img src="//cdn.shopify.com/s/files/1/0501/3562/9982/files/Photo_process_de_prod_1900x.png?v=1680095870" alt="">
+        <img src="{{ section.settings.image | img_url: 'x800' }}" alt="{{ section.settings.image | escape }}">
       </div>
       <div class="process-container-txt">
         <h2>On te montre tout !</h2>
@@ -37,6 +37,11 @@
       "id": "title",
       "label": "Heading",
       "default": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
     }
       ],
       "presets": [
