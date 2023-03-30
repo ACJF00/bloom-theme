@@ -3,29 +3,53 @@
       <div class="main-label-subcontainer">
         <h3>nous on n'a pas peur de l'engagement</h3>
         <div class="display-label">
+          {% if section.settings.image1 %}
           <div class="single-label">
-            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/vegan_1900x.png?v=1679948694" alt="">
+          <img
+          src="{{ section.settings.image1 | img_url: width }}" alt="" loading="lazy"           
+          alt="Image 1"
+          class="image"
+        />
 <p>Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !
             </p>
           </div>
+            {% endif %}
+            {% if section.settings.image2 %}
           <div class="single-label">
-            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/naturel_1900x.png?v=1679948694" alt="">
+          <img
+          src="{{ section.settings.image2 | img_url: width }}" alt="" loading="lazy"           
+          alt="Image 2"
+          class="image"
+        />
             <p>
               Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !
             </p>
           </div>
+          {% endif %}
+              {% if section.settings.image3 %}
           <div class="single-label">
-            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/france_1900x.png?v=1679948694" alt="">
+          <img
+          src="{{ section.settings.image3 | img_url: width }}" alt="" loading="lazy"           
+          alt="Image 3"
+          class="image"
+        />
             <p>
               L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition
             </p>
           </div>
+                {% endif %}
+                {% if section.settings.image4 %}
           <div class="single-label">
-            <img src="https://cdn.shopify.com/s/files/1/0501/3562/9982/files/artisanal_1900x.png?v=1679948694">
+          <img
+          src="{{ section.settings.image4 | img_url: width }}" alt="" loading="lazy"           
+          alt="Image 4"
+          class="image"
+        />
             <p>
               Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées
             </p>
           </div>
+             {% endif %}
         </div>
       </div>
     </div>
