@@ -62,8 +62,8 @@
       "type": "histoire-process",
       "settings": {
         "background": "#ffe0d3",
-        "subheading": "Sub-heading",
-        "title": "Title",
+        "subheading": "Découvre notre processus de fabrication",
+        "title": "On te montre tout !",
         "image": "shopify:\/\/shop_images\/equipe-process.png"
       }
     },
