@@ -8,8 +8,7 @@
           src="{{ section.settings.image1 | img_url: width }}" alt="" loading="lazy"           
           alt="Image 1"
           class="image"
-          data-text="Evidemment, on ne fait pas de mal aux petites bêtes à poils, à
-        plumes, à écailles... pas de graisse animale chez nous !"
+          data-text="{{ section.settings.image1_text }}"
         />
       {% endif %}
       {% if section.settings.image2 %}
@@ -79,6 +78,11 @@
       "id": "image1",
       "label": "Image"
     },
+    {
+  	  "id": "image1_text",
+  	  "type": "text",
+  	  "label": "Description image 1"
+	},
     {
       "type": "image_picker",
       "id": "image2",
