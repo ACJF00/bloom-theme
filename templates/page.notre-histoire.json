@@ -107,10 +107,10 @@
         "button_background": "#ffffff"
       }
     },
-    "674a6d13-3bbb-47f8-899c-61551c3e0c67": {
+    "6b4ad0f8-e8f8-4628-b841-34832221e873": {
       "type": "histoire-process",
       "settings": {
-        "background": "#ffffff",
+        "background": "#ffe0d3",
         "subheading": "Sub-heading",
         "title": "Title",
         "image": "shopify:\/\/shop_images\/equipe-process.png"
@@ -124,6 +124,6 @@
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
     "4daab5ee-2f53-4265-a221-dbbd9fecef29",
-    "674a6d13-3bbb-47f8-899c-61551c3e0c67"
+    "6b4ad0f8-e8f8-4628-b841-34832221e873"
   ]
 }
