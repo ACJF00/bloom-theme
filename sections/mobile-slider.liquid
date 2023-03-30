@@ -16,9 +16,7 @@
         src="{{ section.settings.image2 | img_url: width }}" alt="" loading="lazy"           
         alt="Image 1"
         class="image"
-        data-text="Tous nos bâtons d'encens sont 100% naturels et composés de
-        seulement 6 ingredients: du bois, des fleurs, des fruits, de la
-        gomme, des épices, de la résine... et c'est tout !"
+        data-text="{{ section.settings.image2_text }}"
         />
     {% endif %}
     {% if section.settings.image3 %}
@@ -26,8 +24,7 @@
       src="{{ section.settings.image3 | img_url: width }}" alt="" loading="lazy"           
       alt="Image 1"
       class="image"
-      data-text="L'entièreté de nôtre processus de fabrication s'effectue dans le
-      Sud-Ouest : de la fabrication à l'expédition"
+      data-text="{{ section.settings.image3_text }}"
       />
   {% endif %}
   {% if section.settings.image4 %}
@@ -35,8 +32,7 @@
     src="{{ section.settings.image3 | img_url: width }}" alt="" loading="lazy"           
     alt="Image 1"
     class="image"
-    data-text="Chaque bâton est fabriqué à la main dans notre unique atelier au
-    coeur des Pyrénées"
+    data-text="{{ section.settings.image4_text }}"
     />
 {% endif %}
       </div>
@@ -89,15 +85,30 @@
       "label": "Image"
     },
     {
+  	  "id": "image2_text",
+  	  "type": "text",
+  	  "label": "Description image 2"
+	},
+    {
       "type": "image_picker",
       "id": "image3",
       "label": "Image"
     },
     {
+  	  "id": "image3_text",
+  	  "type": "text",
+  	  "label": "Description image 3"
+	},
+    {
       "type": "image_picker",
       "id": "image4",
       "label": "Image"
-    }
+    },
+    {
+  	  "id": "image4_text",
+  	  "type": "text",
+  	  "label": "Description image 4"
+	}
 ],
 "presets": [
     {
