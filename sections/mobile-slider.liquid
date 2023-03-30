@@ -1,6 +1,15 @@
 <div class="slider-mobile-container">
+    {%- if section.settings.subheading != blank or section.settings.title != blank -%}
+      <header class="SectionHeader SectionHeader--center">
+               {%- if section.settings.title != blank -%}
+          <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.title | escape }}</h2>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <h3 class="SectionHeader__SubHeading Heading u-h6">{{ section.settings.subheading | escape }}</h3>
+        {%- endif -%}
+      </header>
+    {%- endif -%}
   <div class="slider-mobile-subcontainer">
-    <h3>nous on n'a pas peur de l'engagement</h3>
     <div class="display-label">
       <div class="image-container">
         {% if section.settings.image1 %}
