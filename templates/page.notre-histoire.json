@@ -40,8 +40,18 @@
         "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées"
       }
     },
+    "6b4ad0f8-e8f8-4628-b841-34832221e873": {
+      "type": "histoire-process",
+      "settings": {
+        "background": "#ffe0d3",
+        "subheading": "Sub-heading",
+        "title": "Title",
+        "image": "shopify:\/\/shop_images\/equipe-process.png"
+      }
+    },
     "8d6b439f-c897-4285-8ef9-50642a6e07f5": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".main-label-container {display: flex; flex-direction: column; align-items: center; position: relative;}",
         ".main-label-subcontainer {display: flex; flex-direction: column; align-items: center;}",
@@ -102,24 +112,15 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
-    },
-    "6b4ad0f8-e8f8-4628-b841-34832221e873": {
-      "type": "histoire-process",
-      "settings": {
-        "background": "#ffe0d3",
-        "subheading": "Sub-heading",
-        "title": "Title",
-        "image": "shopify:\/\/shop_images\/equipe-process.png"
-      }
     }
   },
   "order": [
     "99909ab4-69bf-4b06-9c42-8844c1723c5d",
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3",
+    "6b4ad0f8-e8f8-4628-b841-34832221e873",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
-    "4daab5ee-2f53-4265-a221-dbbd9fecef29",
-    "6b4ad0f8-e8f8-4628-b841-34832221e873"
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29"
   ]
 }
