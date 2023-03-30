@@ -74,8 +74,8 @@
 
       ],
       "settings": {
-        "subheading": "",
-        "title": "",
+        "subheading": "Découvre notre processus de fabrication",
+        "title": "On te montre tout !",
         "html": "<div class=\"process-main-container\">\n         <div class=\"process-container\">\n      <div class=\"process-container-img\">\n        <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Photo_process_de_prod_1900x.png?v=1680095870\" alt=\"\">\n      <\/div>\n      <div class=\"process-container-txt\">\n        <h2>On te montre tout !<\/h2>\n        <p>Découvre notre processus de fabrication<\/p>\n        <video width=\"320\" height=\"240\" controls=\"\">\n          <source src=\"video.mp4\" type=\"video\/mp4\">\n      <\/source><\/video>\n<\/div>\n    <\/div>\n<div class=\"ButtonGroup ButtonGroup--spacingSmall \"><a href=\"\/collections\/coffrets-dencens\" class=\"ButtonGroup__Item Button\">Découvre nos parfums<\/a><\/div>\n    <\/div>"
       }
     },
