@@ -61,11 +61,7 @@
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d": {
       "type": "custom-html",
       "custom_css": [
-        "section {background-color: #ffe0d3;}",
-        "section h2 {text-align: center; margin: 0;}",
-        ".Button {border: none !important; padding: 0.6rem 5rem; text-transform: unset; font-size: 1.5rem; font-family: customfont; letter-spacing: initial; color: #ffffff; margin-top: 4rem;}",
-        ".Button::before {background-color: #233f41 !important; border-radius: 30px;}",
-        "video {border-radius: 40px; width: 330px; height: 340px;}"
+
       ],
       "settings": {
         "subheading": "",
