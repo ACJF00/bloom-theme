@@ -12,6 +12,21 @@
         "html": "<div class=\"histoire-title\">\n      <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 1440 320\">\n        <path fill=\"#ffcbb4\" fill-opacity=\"1\" d=\"M0,160L80,186.7C160,213,320,267,480,256C640,245,800,171,960,154.7C1120,139,1280,181,1360,202.7L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z\"><\/path>\n      <\/svg>\n      <h2>Incenses we <span>trust<\/span>\n<\/h2>\n    <\/div>\n    <div>\n      <div class=\"histoire-resume\">\n        <div class=\"histoire-resume-text\">\n          <h2>Une histoire à consumer sans modération<\/h2>\n          <p>Et ouais... on est trois mecs ! Yon, Hugo et Alexis.<\/p>\n          <p>\n            Avec Bloom, l'ambition c'était de pouvoir proposer une alternative\n            naturelle, made in France, et saine aux encens souvent chimiques du\n            commerce (tu sais, ceux à 30 centimes avec les buddhas et les\n            tigres). Bref, revenir à l'essentiel et se faire plaisir sans\n            compromettre sa santé.\n          <\/p>\n        <\/div>\n        <div class=\"histoire-resume-img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Equipe_1200x.png?v=1679923801\" alt=\"Equipe\">\n        <\/div>\n      <\/div>\n    <\/div>"
       }
     },
+    "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3": {
+      "type": "mobile-slider",
+      "settings": {
+        "subheading": "nous on n'a pas peur de l'engagement",
+        "title": "C'est promis",
+        "image1": "shopify:\/\/shop_images\/vegan.png",
+        "image1_text": "Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !",
+        "image2": "shopify:\/\/shop_images\/naturel.png",
+        "image2_text": "Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !",
+        "image3": "shopify:\/\/shop_images\/france.png",
+        "image3_text": "L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition",
+        "image4": "shopify:\/\/shop_images\/artisanal.png",
+        "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées"
+      }
+    },
     "8d6b439f-c897-4285-8ef9-50642a6e07f5": {
       "type": "custom-html",
       "custom_css": [
@@ -78,28 +93,13 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
-    },
-    "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3": {
-      "type": "mobile-slider",
-      "settings": {
-        "subheading": "nous on n'a pas peur de l'engagement",
-        "title": "C'est promis",
-        "image1": "shopify:\/\/shop_images\/vegan.png",
-        "image1_text": "Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !",
-        "image2": "shopify:\/\/shop_images\/naturel.png",
-        "image2_text": "Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !",
-        "image3": "shopify:\/\/shop_images\/france.png",
-        "image3_text": "L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition",
-        "image4": "shopify:\/\/shop_images\/artisanal.png",
-        "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées"
-      }
     }
   },
   "order": [
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
+    "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
-    "4daab5ee-2f53-4265-a221-dbbd9fecef29",
-    "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3"
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29"
   ]
 }
