@@ -11701,31 +11701,7 @@ position: relative;
  * Notre histoire
  * ----------------------------------------------------------------------------
  */
-  
-.histoire-resume {
-  flex-direction: column-reverse;
-}
-  .histoire-resume-img {
-    width: 340px;
-    border-radius: 45px;
-    height: 180px;
-}
-  .histoire-resume-img img {
-    width: 274px;
-    top: -161px;
-    left: 0px;
-}
-  .histoire-resume-text {
-    width: 100%;
-}
-  .histoire-resume-text p {
-    margin-right: 0;
-}
-  .histoire-resume-text h2, .process-container-txt h2 {
-    font-size: 1.5rem!important;
-    width: 100%;
-    text-align: center;
-}
+
   .process-container {
     flex-direction: column;
 }
