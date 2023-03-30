@@ -8,8 +8,9 @@
         <h2 class="title-style-1">{{section.settings.title}}</h2>
         <h3>{{section.settings.subheading}}</h3>
         <video width="320" height="240" controls="">
-          <source src="{{ section.settings.video }}" type="video/mp4">
+          <source src="{{ section.settings.video_url }}" type="video/mp4">
       </source></video>
+        <iframe width="560" height="315" src="{{ section.settings.video }}" frameborder="0" allowfullscreen></iframe>
 </div>
     </div>
 <div class="ButtonGroup ButtonGroup--spacingSmall "><a href="/collections/coffrets-dencens" class="ButtonGroup__Item Button">Découvre nos parfums</a></div>
@@ -44,8 +45,8 @@
       "label": "Image"
     },
         {
-  "type": "video",
-  "id": "video",
+  "type": "url",
+  "id": "video_url",
   "label": "A Shopify-hosted video"
 }
       ],
