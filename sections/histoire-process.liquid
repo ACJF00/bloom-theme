@@ -5,8 +5,8 @@
         <img src="{{ section.settings.image | img_url: 'x800' }}" alt="{{ section.settings.image | escape }}">
       </div>
       <div class="process-container-txt">
-        <h2 class="title-style-1">On te montre tout !</h2>
-        <p>Découvre notre processus de fabrication</p>
+        <h2 class="title-style-1">{{section.settings.title}}</h2>
+        <h3>{{section.settings.subheading}}</h3>
         <video width="320" height="240" controls="">
           <source src="video.mp4" type="video/mp4">
       </source></video>
