@@ -11542,67 +11542,7 @@ position: relative;
   z-index: -1;
 }
 
-.histoire-title {
-  position: relative;
-  height: 330px;
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-}
-.histoire-title svg {
-  position: absolute;
-  z-index: -1;
-  width: 100vw;
-}
-.histoire-title h2 {
-  font-size: 2.5rem!important;
-  width: 500px;
-  line-height: 50px;
-  margin-top: 100px;
-  z-index: 2;
-}
 
-.histoire-title h2 span {
-  text-decoration: underline;
-}
-
-.histoire-resume {
-  display: flex;
-  align-items: center;
-  min-height: 630px;
-  justify-content: center;
-  margin-top: -200px;
-}
-.histoire-resume-text {
-  width: 30%;
-}
-.histoire-resume-text h2,
-.process-container-txt h2
-{
-  font-size: 2.5rem !important;
-  width: 500px;
-  text-align: left;
-  line-height: 50px;
-}
-.histoire-resume-img {
-  width: 570px;
-  background-color: #dfa79d;
-  border-radius: 75px;
-  height: 340px;
-  margin-top: 11rem;
-}
-.histoire-resume-img img {
-    width: 504px;
-    position: relative;
-    height: auto;
-    top: -265px;
-    left: 80px;
-    z-index: 1;
-}
-.histoire-resume-text p {
-  margin-right: 3rem;
-  text-align: justify;
-}
 
 #shopify-section-template--18472263582029__8d6b439f-c897-4285-8ef9-50642a6e07f5 h2 {
     font-size: 2.5rem;
