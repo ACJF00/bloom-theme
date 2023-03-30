@@ -1,5 +1,15 @@
 {
   "sections": {
+    "99909ab4-69bf-4b06-9c42-8844c1723c5d": {
+      "type": "histoire-first-section",
+      "settings": {
+        "background": "#ffe0d3",
+        "subheading": "Sub-heading",
+        "title": "Title",
+        "paragraph1": "Texte 1",
+        "paragraph2": "Texte 2"
+      }
+    },
     "2c32d02b-16c1-4325-92e1-09b6b69c7093": {
       "type": "custom-html",
       "custom_css": [
@@ -93,20 +103,14 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
-    },
-    "99909ab4-69bf-4b06-9c42-8844c1723c5d": {
-      "type": "histoire-first-section",
-      "settings": {
-        "background": "#ffe0d3"
-      }
     }
   },
   "order": [
+    "99909ab4-69bf-4b06-9c42-8844c1723c5d",
     "2c32d02b-16c1-4325-92e1-09b6b69c7093",
     "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3",
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "a2d8d2ea-cd4e-4237-99dd-205dd4de924d",
-    "4daab5ee-2f53-4265-a221-dbbd9fecef29",
-    "99909ab4-69bf-4b06-9c42-8844c1723c5d"
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29"
   ]
 }
