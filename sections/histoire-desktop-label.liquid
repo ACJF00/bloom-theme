@@ -11,8 +11,7 @@
           alt="Image 1"
           class="image"
         />
-<p>Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !
-            </p>
+<p>{{ section.settings.image1_text }}</p>
           </div>
             {% endif %}
             {% if section.settings.image2 %}
@@ -22,9 +21,7 @@
           alt="Image 2"
           class="image"
         />
-            <p>
-              Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !
-            </p>
+            <p>{{ section.settings.image2_text }}</p>
           </div>
           {% endif %}
               {% if section.settings.image3 %}
@@ -35,7 +32,7 @@
           class="image"
         />
             <p>
-              L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition
+              {{ section.settings.image3_text }}
             </p>
           </div>
                 {% endif %}
@@ -47,7 +44,7 @@
           class="image"
         />
             <p>
-              Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées
+              {{ section.settings.image4_text }}
             </p>
           </div>
              {% endif %}
