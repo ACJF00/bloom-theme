@@ -80,6 +80,12 @@
 {
 "name": "Mobile slider",
 "settings": [
+        {
+  "type": "color",
+  "id": "background",
+  "label": "Background",
+  "default": "#ffffff"
+},
       {
       "type": "text",
       "id": "subheading",
@@ -147,6 +153,9 @@
 
 @media screen and (max-width: 768px) {
 
+    #section-{{ section.id }} {
+  background-color: {{ section.settings.background }};
+  }
   
 .slider-mobile-container {
 background-color: #ffe0d3;
