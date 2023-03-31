@@ -148,9 +148,7 @@
 }
 {% endschema %}
 
-{% stylesheet %}
-
-
+<style>
 @media screen and (max-width: 768px) {
 
     #section-{{ section.id }} {
@@ -213,8 +211,7 @@ transition: opacity 0.7s ease-in-out 0s;
     margin: auto;
 }
 }
-
-{% endstylesheet %}
+</style>
 
 {% javascript %}
 const images = document.querySelectorAll(".image");
