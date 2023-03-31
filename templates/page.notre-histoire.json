@@ -15,6 +15,7 @@
     "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3": {
       "type": "mobile-slider",
       "settings": {
+        "background": "#ffcbb4",
         "subheading": "nous on n'a pas peur de l'engagement",
         "title": "C'est promis",
         "image1": "shopify:\/\/shop_images\/vegan.png",
