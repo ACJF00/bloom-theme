@@ -50,6 +50,15 @@
              {% endif %}
         </div>
       </div>
+              {%- if section.settings.button_1_text != blank %}
+              <div class="SectionHeader__ButtonWrapper">
+                <div class="ButtonGroup ButtonGroup--spacingSmall">
+                  {%- if section.settings.button_1_text != blank -%}
+                    <a href="{{ section.settings.button_1_link }}" class="ButtonGroup__Item Button">{{ section.settings.button_1_text | escape }}</a>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
     </div>
 </section>
   
@@ -114,7 +123,17 @@
   	  "id": "image4_text",
   	  "type": "text",
   	  "label": "Description image 4"
-	}
+	},
+                  {
+          "type": "text",
+          "id": "button_1_text",
+          "label": "Text Button"
+        },
+        {
+          "type": "url",
+          "id": "button_1_link",
+          "label": "Link Button"
+        }
 ],
   "presets": [
       {
