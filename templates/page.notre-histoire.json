@@ -25,7 +25,9 @@
         "image3": "shopify:\/\/shop_images\/france.png",
         "image3_text": "L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition",
         "image4": "shopify:\/\/shop_images\/artisanal.png",
-        "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées"
+        "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées",
+        "button_1_text": "Liste complète de nos ingrédients",
+        "button_1_link": "shopify:\/\/collections\/all"
       }
     },
     "8d6b439f-c897-4285-8ef9-50642a6e07f5": {
