@@ -51,7 +51,7 @@
         </div>
       </div>
               {%- if section.settings.button_1_text != blank %}
-              <div class="SectionHeader__ButtonWrapper">
+              <div class="SectionHeader__ButtonWrapper btn-decale-bottom">
                 <div class="ButtonGroup ButtonGroup--spacingSmall">
                   {%- if section.settings.button_1_text != blank -%}
                     <a href="{{ section.settings.button_1_link }}" class="ButtonGroup__Item Button">{{ section.settings.button_1_text | escape }}</a>
@@ -190,6 +190,9 @@ h3 {
   margin: 0;
   font-size: 1.5rem;
 }
+  .btn-decale-bottom {
+    margin-bottom: -26px;
+  }
   </style>
 
 {% javascript %}
