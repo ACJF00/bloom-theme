@@ -11634,6 +11634,10 @@ position: relative;
     text-align: center;
   }
 
+  #slideshow-svg-pink {
+    top: -80px;
+}
+
 
     /** Slider */
   .dg-slide-inner {
