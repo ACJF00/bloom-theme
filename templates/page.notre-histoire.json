@@ -108,6 +108,9 @@
     },
     "40cecd2b-bea4-4897-96cd-79546ac5ded9": {
       "type": "dg-slider",
+      "custom_css": [
+        ".dg-slider {background-color: #ffe0d3;}"
+      ],
       "settings": {
         "image_width": "1900x",
         "image1": "shopify:\/\/shop_images\/coffrets-detoures_0003_DSC08975.png",
