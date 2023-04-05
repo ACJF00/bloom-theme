@@ -11582,7 +11582,8 @@ position: relative;
 }
 
   #section-051d91d9-3c76-4b41-881d-79bf7604ec8d .SectionHeader h3 {
-    font-size: 2rem!important;
+    font-size: 1.5rem!important;
+    line-height: 10px;
   }
 
   .template-index .SectionHeader h2 {
