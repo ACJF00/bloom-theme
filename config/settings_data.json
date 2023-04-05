@@ -907,6 +907,33 @@
           "slider9_call_to_action": "",
           "slider9_call_to_action_text": ""
         }
+      },
+      "19719cc7-db38-4921-8018-9c0d4db5fca7": {
+        "type": "dg-slider",
+        "settings": {
+          "image_width": "1900x",
+          "image1": "shopify:\/\/shop_images\/Exposition_1.png",
+          "slider1_call_to_action": "",
+          "slider1_call_to_action_text": "",
+          "image2": "shopify:\/\/shop_images\/Exposition_2-2.png",
+          "slider2_call_to_action": "",
+          "slider2_call_to_action_text": "",
+          "image3": "shopify:\/\/shop_images\/Exposition_2-1.png",
+          "slider3_call_to_action": "",
+          "slider3_call_to_action_text": "",
+          "slider4_call_to_action": "",
+          "slider4_call_to_action_text": "",
+          "slider5_call_to_action": "",
+          "slider5_call_to_action_text": "",
+          "slider6_call_to_action": "",
+          "slider6_call_to_action_text": "",
+          "slider7_call_to_action": "",
+          "slider7_call_to_action_text": "",
+          "slider8_call_to_action": "",
+          "slider8_call_to_action_text": "",
+          "slider9_call_to_action": "",
+          "slider9_call_to_action_text": ""
+        }
       }
     },
     "content_for_index": [
@@ -916,6 +943,7 @@
       "af33752d-0471-4e68-a117-14b38f7dfc84",
       "1643234571e6d89435",
       "16273235254943b040",
+      "19719cc7-db38-4921-8018-9c0d4db5fca7",
       "ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3"
     ],
     "blocks": {
