@@ -11588,6 +11588,10 @@ position: relative;
     #Slide693fcf00-f730-4d47-9867-6de5622a86cd-16794961361fa8c835-0 .Slideshow__Content.Slideshow__Content--middleLeft {
   margin-top: -120px;
 }
+  #section-693fcf00-f730-4d47-9867-6de5622a86cd .Button, #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 .Button {
+    margin: auto;
+    font-size: 1rem;
+}
 
   #shopify-section-34284f6b-efef-4b82-92ee-eb3d967aeda0 h2 {
     font-size: 2.5rem !important;
