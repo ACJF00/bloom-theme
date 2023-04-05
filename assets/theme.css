@@ -11576,11 +11576,14 @@ position: relative;
  */
   
   #section-693fcf00-f730-4d47-9867-6de5622a86cd .SectionHeader h2, 
-  #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 .SectionHeader h2,
-  #section-051d91d9-3c76-4b41-881d-79bf7604ec8d .SectionHeader h3 {
+  #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 .SectionHeader h2 {
     font-size: 2rem!important;
     text-align: center;
 }
+
+  #section-051d91d9-3c76-4b41-881d-79bf7604ec8d .SectionHeader h3 {
+    font-size: 2rem!important;
+  }
 
   .template-index .SectionHeader h2 {
     width: 100%!important;
