@@ -938,12 +938,12 @@
       "f0e21a09-e56e-4c77-89b8-b9c881ba83d5": {
         "type": "custom-html",
         "custom_css": [
-          "img {width: 100%;}"
+          ".Container {margin: 0; padding: 0; margin-top: -100px;}"
         ],
         "settings": {
           "subheading": "",
           "title": "",
-          "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Capture_d_ecran_2023-04-05_a_17.54.15-removebg-preview_430x.png?v=1680730415#\">"
+          "html": "<div>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Capture_d_ecran_2023-04-05_a_17.54.15-removebg-preview_430x.png?v=1680730415#\">\n<\/div>"
         }
       }
     },
