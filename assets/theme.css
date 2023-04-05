@@ -11595,6 +11595,15 @@ position: relative;
     font-size: 0.7rem;
 }
 
+  .Slideshow__Content.Slideshow__Content--middleLeft {
+    position: initial;
+    padding-top: 80px;
+    width: 100%;
+    transform: initial;
+    text-align: center;
+  }
+
+
     /** Slider */
   .dg-slide-inner {
     margin: 0;
@@ -11607,6 +11616,7 @@ position: relative;
   #svg-footer-wave {
     top: -70px;
 }
+  
 
   /**
  * ----------------------------------------------------------------------------
