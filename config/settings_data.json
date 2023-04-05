@@ -934,6 +934,17 @@
           "slider9_call_to_action": "",
           "slider9_call_to_action_text": ""
         }
+      },
+      "f0e21a09-e56e-4c77-89b8-b9c881ba83d5": {
+        "type": "custom-html",
+        "custom_css": [
+          "img {width: 100%;}"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0501\/3562\/9982\/files\/Capture_d_ecran_2023-04-05_a_17.54.15-removebg-preview_430x.png?v=1680730415#\">"
+        }
       }
     },
     "content_for_index": [
@@ -943,8 +954,9 @@
       "af33752d-0471-4e68-a117-14b38f7dfc84",
       "1643234571e6d89435",
       "16273235254943b040",
-      "19719cc7-db38-4921-8018-9c0d4db5fca7",
-      "ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3"
+      "ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3",
+      "f0e21a09-e56e-4c77-89b8-b9c881ba83d5",
+      "19719cc7-db38-4921-8018-9c0d4db5fca7"
     ],
     "blocks": {
       "14060646107696862457": {
