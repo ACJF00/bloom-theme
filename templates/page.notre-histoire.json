@@ -105,6 +105,35 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
+    },
+    "40cecd2b-bea4-4897-96cd-79546ac5ded9": {
+      "type": "dg-slider",
+      "settings": {
+        "image_width": "1900x",
+        "image1": "shopify:\/\/shop_images\/coffrets-detoures_0003_DSC08975.png",
+        "slider1_call_to_action": "",
+        "slider1_call_to_action_text": "",
+        "image2": "shopify:\/\/shop_images\/coffrets-detoures_0001_DSC08984.png",
+        "slider2_call_to_action": "",
+        "slider2_call_to_action_text": "",
+        "image3": "shopify:\/\/shop_images\/DSC08987.png",
+        "slider3_call_to_action": "",
+        "slider3_call_to_action_text": "",
+        "image4": "shopify:\/\/shop_images\/coffrets-detoures_0002_DSC08980.png",
+        "slider4_call_to_action": "",
+        "slider4_call_to_action_text": "",
+        "image5": "shopify:\/\/shop_images\/coffrets-detoures_0004_DSC08970.png",
+        "slider5_call_to_action": "",
+        "slider5_call_to_action_text": "",
+        "slider6_call_to_action": "",
+        "slider6_call_to_action_text": "",
+        "slider7_call_to_action": "",
+        "slider7_call_to_action_text": "",
+        "slider8_call_to_action": "",
+        "slider8_call_to_action_text": "",
+        "slider9_call_to_action": "",
+        "slider9_call_to_action_text": ""
+      }
     }
   },
   "order": [
@@ -113,6 +142,7 @@
     "8d6b439f-c897-4285-8ef9-50642a6e07f5",
     "e7076a7a-3414-4d43-91af-15a7d78df5b2",
     "6b4ad0f8-e8f8-4628-b841-34832221e873",
-    "4daab5ee-2f53-4265-a221-dbbd9fecef29"
+    "4daab5ee-2f53-4265-a221-dbbd9fecef29",
+    "40cecd2b-bea4-4897-96cd-79546ac5ded9"
   ]
 }
