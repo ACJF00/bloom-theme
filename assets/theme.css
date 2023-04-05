@@ -11530,14 +11530,6 @@ p {
     display: none;
 }
 
-  #Slideb12952ef-36ef-4861-9d61-600cefb9b12d .Slideshow__Content.Slideshow__Content--middleLeft {
-    position: initial;
-    padding-top: 50px;
-    width: 100%;
-    transform: initial;
-    text-align: center;
-  }
-
 #section-footer {
   position: relative;
 }
@@ -11633,6 +11625,14 @@ position: relative;
     padding: 1rem !important;
     font-size: 0.7rem;
 }
+
+    #Slideb12952ef-36ef-4861-9d61-600cefb9b12d .Slideshow__Content.Slideshow__Content--middleLeft {
+    position: initial;
+    padding-top: 50px;
+    width: 100%;
+    transform: initial;
+    text-align: center;
+  }
 
 
     /** Slider */
