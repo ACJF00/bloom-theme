@@ -863,6 +863,9 @@
         "block_order": [
           "b12952ef-36ef-4861-9d61-600cefb9b12d"
         ],
+        "custom_css": [
+          ".flickity-viewport {height: 650px !important; overflow: visible;}"
+        ],
         "settings": {
           "show_fullscreen": false,
           "show_arrow": false,
