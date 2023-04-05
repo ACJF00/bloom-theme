@@ -110,7 +110,7 @@
     "40cecd2b-bea4-4897-96cd-79546ac5ded9": {
       "type": "dg-slider",
       "custom_css": [
-        ".dg-slider {background-color: #ffe0d3; margin-bottom: -110px;}"
+
       ],
       "settings": {
         "image_width": "1900x",
