@@ -74,6 +74,7 @@
     },
     "4daab5ee-2f53-4265-a221-dbbd9fecef29": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "8ae4bc73-b2fa-421b-a033-4a41bc388074": {
           "type": "image",
@@ -109,7 +110,7 @@
     "40cecd2b-bea4-4897-96cd-79546ac5ded9": {
       "type": "dg-slider",
       "custom_css": [
-        ".dg-slider {background-color: #ffe0d3;}"
+        ".dg-slider {background-color: #ffe0d3; margin-bottom: -110px;}"
       ],
       "settings": {
         "image_width": "1900x",
