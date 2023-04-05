@@ -11530,6 +11530,14 @@ p {
     display: none;
 }
 
+  .Slideshow__Content.Slideshow__Content--middleLeft {
+    position: initial;
+    padding-top: 80px;
+    width: 100%;
+    transform: initial;
+    text-align: center;
+  }
+
 #section-footer {
   position: relative;
 }
@@ -11594,14 +11602,6 @@ position: relative;
     padding: 1rem !important;
     font-size: 0.7rem;
 }
-
-  .Slideshow__Content.Slideshow__Content--middleLeft {
-    position: initial;
-    padding-top: 80px;
-    width: 100%;
-    transform: initial;
-    text-align: center;
-  }
 
 
     /** Slider */
