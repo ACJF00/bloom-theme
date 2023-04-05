@@ -7,7 +7,7 @@
           {% if section.settings.image1 %}
           <div class="single-label">
           <img
-          src="{{ section.settings.image1 | img_url: width }}" alt="" loading="lazy"           
+          src="{{ section.settings.image1 | img_url: 'x200' }}" alt="" loading="lazy"           
           alt="Image 1"
           class="image"
         />
@@ -17,7 +17,7 @@
             {% if section.settings.image2 %}
           <div class="single-label">
           <img
-          src="{{ section.settings.image2 | img_url: width }}" alt="" loading="lazy"           
+          src="{{ section.settings.image2 | img_url: 'x200' }}" alt="" loading="lazy"           
           alt="Image 2"
           class="image"
         />
@@ -27,7 +27,7 @@
               {% if section.settings.image3 %}
           <div class="single-label">
           <img
-          src="{{ section.settings.image3 | img_url: width }}" alt="" loading="lazy"           
+          src="{{ section.settings.image3 | img_url: 'x200' }}" alt="" loading="lazy"           
           alt="Image 3"
           class="image"
         />
@@ -182,6 +182,9 @@
 .single-label p {
   width: 60%;
   text-align: left;
+}
+.single-label img {
+  width: 110px;
 }
 header {
   margin-bottom: 0;
