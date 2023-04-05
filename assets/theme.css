@@ -11577,12 +11577,16 @@ position: relative;
   
   #section-693fcf00-f730-4d47-9867-6de5622a86cd .SectionHeader h2, 
   #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 .SectionHeader h2 {
-    font-size: 2.5rem!important;
+    font-size: 2rem!important;
     text-align: center;
 }
 
   .template-index .SectionHeader h2 {
     width: 100%!important;
+}
+
+    #Slide693fcf00-f730-4d47-9867-6de5622a86cd-16794961361fa8c835-0.Slideshow__Content.Slideshow__Content--middleLeft {
+  margin-top: -120px;
 }
 
   #shopify-section-34284f6b-efef-4b82-92ee-eb3d967aeda0 h2 {
