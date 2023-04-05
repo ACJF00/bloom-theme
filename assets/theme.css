@@ -11467,6 +11467,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  * ----------------------------------------------------------------------------
  */
 
+p {
+  font-family: 'futura-custom-fonts', sans-serif;
+}
+
 .title-style-1 {
   font-size: 2.5rem;
     width: 500px;
