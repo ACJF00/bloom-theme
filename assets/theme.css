@@ -11586,6 +11586,10 @@ position: relative;
     line-height: 10px;
   }
 
+  #section-051d91d9-3c76-4b41-881d-79bf7604ec8d .Slideshow__Content--bottomLeft {
+    bottom: 20px;
+  }
+
   .template-index .SectionHeader h2 {
     width: 100%!important;
 }
