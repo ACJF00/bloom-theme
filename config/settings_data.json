@@ -848,6 +848,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Capture_d_ecran_2023-03-27_a_10.56.45.png",
+              "mobile_image": "shopify:\/\/shop_images\/echantillons-mobile.png",
               "apply_overlay": false,
               "content_position": "middleLeft",
               "subheading": "25 bâtons de tes 5 senteurs favorites",
