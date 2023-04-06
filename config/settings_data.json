@@ -938,7 +938,8 @@
       "f0e21a09-e56e-4c77-89b8-b9c881ba83d5": {
         "type": "custom-html",
         "custom_css": [
-          ".Container {margin-bottom: -60px; margin-top: -100px; padding: 0;}"
+          ".Container {margin-bottom: -60px; margin-top: -100px; padding: 0;}",
+          ".Rte img {margin-top: 0;}"
         ],
         "settings": {
           "subheading": "",
