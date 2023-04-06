@@ -938,7 +938,7 @@
       "f0e21a09-e56e-4c77-89b8-b9c881ba83d5": {
         "type": "custom-html",
         "custom_css": [
-          ".Container {margin: 0; padding: 0; margin-top: -100px;}"
+          ".Container {margin-bottom: -60px; margin-top: -100px; padding: 0;}"
         ],
         "settings": {
           "subheading": "",
@@ -951,7 +951,7 @@
         "custom_css": [
           ".Container {margin-top: -140px;}",
           "h3 {font-size: 2.5rem; margin-top: 0;}",
-          "H2 {font-family: 'Futura' !important; font-weight: 100; font-size: 1.3rem; margin-top: -40px;}"
+          "H2 {font-family: \"Futura\" !important; font-weight: 100; font-size: 1.3rem; margin-top: -40px;}"
         ],
         "settings": {
           "subheading": "Assors ta senteur (ou pas) à son support",
