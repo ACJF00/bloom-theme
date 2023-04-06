@@ -11530,6 +11530,12 @@ p {
     display: none;
 }
 
+  /*Section porte encens*/
+  #section-f0e21a09-e56e-4c77-89b8-b9c881ba83d5,
+  #shopify-section-19719cc7-db38-4921-8018-9c0d4db5fca7 {
+    display: none;
+  }
+
 #section-footer {
   position: relative;
 }
@@ -11643,8 +11649,14 @@ position: relative;
     padding-bottom: 0;
 }
 
+  /*Section porte encens*/
+  #section-f0e21a09-e56e-4c77-89b8-b9c881ba83d5,
+  #shopify-section-19719cc7-db38-4921-8018-9c0d4db5fca7 {
+    display: block;
+  }
 
-    /** Slider */
+
+    /* Slider */
   .dg-slide-inner {
     margin: 0;
 }
