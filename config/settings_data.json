@@ -949,8 +949,9 @@
       "713fb497-27eb-44db-ab15-d81d62c47ddd": {
         "type": "custom-html",
         "custom_css": [
+          ".Container {margin-top: -140px;}",
           "h3 {font-size: 2.5rem; margin-top: 0;}",
-          ".Container {margin-top: -140px;}"
+          "H2 {font-family: 'Futura' !important; font-weight: 100; font-size: 1.3rem; margin-top: -40px;}"
         ],
         "settings": {
           "subheading": "Assors ta senteur (ou pas) à son support",
