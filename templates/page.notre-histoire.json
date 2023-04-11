@@ -8,8 +8,7 @@
         "title": "Ici on fait tout maison",
         "paragraph1": "Et ouais... on est trois mecs ! Yon, Hugo et Alexis.",
         "paragraph2": "Avec Bloom, l'ambition c'était de pouvoir proposer une alternative            naturelle, made in France, et saine aux encens souvent chimiques du            commerce (tu sais, ceux à 30 centimes avec les buddhas et les            tigres). Bref, revenir à l'essentiel et se faire plaisir sans            compromettre sa santé.",
-        "image": "shopify:\/\/shop_images\/equipe_rectangle.png",
-        "mobile_image": "shopify:\/\/shop_images\/equipe-mobile.png"
+        "image": "shopify:\/\/shop_images\/equipe_rectangle.png"
       }
     },
     "d6cc7ca9-d2af-43fe-81bf-22bf9fada8a3": {
@@ -18,13 +17,9 @@
         "background": "#ffcbb4",
         "subheading": "nous on n'a pas peur de l'engagement",
         "title": "C'est promis",
-        "image1": "shopify:\/\/shop_images\/vegan.png",
         "image1_text": "Evidemment, on ne fait pas de mal aux petites bêtes à poils, à plumes, à écailles... pas de graisse animale chez nous !",
-        "image2": "shopify:\/\/shop_images\/naturel.png",
         "image2_text": "Tous nos bâtons d'encens sont 100% naturels et composés de seulement 6 ingredients: du bois, des fleurs, des fruits, de la gomme, des épices, de la résine... et c'est tout !",
-        "image3": "shopify:\/\/shop_images\/france.png",
         "image3_text": "L'entièreté de nôtre processus de fabrication s'effectue dans le Sud-Ouest : de la fabrication à l'expédition",
-        "image4": "shopify:\/\/shop_images\/artisanal.png",
         "image4_text": "Chaque bâton est fabriqué à la main dans notre unique atelier au coeur des Pyrénées",
         "button_1_text": "Liste complète de nos ingrédients",
         "button_1_link": "shopify:\/\/collections\/all"
@@ -66,7 +61,7 @@
         "background": "#ffe0d3",
         "subheading": "Découvre notre processus de fabrication",
         "title": "On te montre tout !",
-        "image": "shopify:\/\/shop_images\/equipe-process.png",
+        "image": "shopify:\/\/shop_images\/Photo_process_de_prod_rectangle.png",
         "video_url": "https:\/\/www.youtube.com\/embed\/Ui2EXSpFxpM",
         "button_1_text": "Découvre nos parfums",
         "button_1_link": "shopify:\/\/collections\/all"
