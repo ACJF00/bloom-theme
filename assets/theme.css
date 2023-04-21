@@ -11482,24 +11482,13 @@ p {
   text-transform: unset;
   letter-spacing: initial;
   border: none!important;
+  padding: 0.6rem 5rem;
 }
 
 .title-style-1 {
   font-size: 2.5rem;
     width: 500px;
     line-height: 50px;
-}
-
-#section-693fcf00-f730-4d47-9867-6de5622a86cd .Button,
-#section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 .Button
-{
-  border: none!important;
-    padding: 0.6rem 5rem;
-}
-
-#section-051d91d9-3c76-4b41-881d-79bf7604ec8d .Button {
-  border: none !important;
-  padding: 1rem 5rem;
 }
 
 #section-693fcf00-f730-4d47-9867-6de5622a86cd .Button::before,
