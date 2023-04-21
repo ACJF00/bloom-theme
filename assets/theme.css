@@ -11467,7 +11467,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  * ----------------------------------------------------------------------------
  */
 
-h1 {
+h1, h2 {
   font-family: 'Gentle', sans-serif;
 }
 
