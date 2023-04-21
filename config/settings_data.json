@@ -723,7 +723,7 @@
           "051d91d9-3c76-4b41-881d-79bf7604ec8d-167948554729725147-0"
         ],
         "custom_css": [
-          "h3 {font-family: Futura !important; font-weight: bold; font-size: 2rem; margin-bottom: 1rem;}",
+          "h3 {font-size: 2rem; margin-bottom: 1rem;}",
           "h2 {font-family: Futura !important;}"
         ],
         "settings": {
