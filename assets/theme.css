@@ -11468,11 +11468,16 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
  */
 
 h1, h2 {
-  font-family: 'customfont', sans-serif;
+  font-family: 'customfont';
 }
 
 p {
   font-family: 'Futura', sans-serif;
+}
+
+button {
+  font-family: 'Futura', sans-serif;
+  font-weight: bold;
 }
 
 .title-style-1 {
