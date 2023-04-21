@@ -7804,6 +7804,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .Footer .Container {
   background: var(--footer-background);
+  margin-top: -10px;
 }
 
 .Footer--withMargin {
