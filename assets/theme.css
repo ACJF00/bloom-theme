@@ -11479,6 +11479,8 @@ p {
   font-family: 'Futura', sans-serif;
   font-weight: bold;
   font-size: 25px;
+  text-transform: unset;
+  letter-spacing: initial;
 }
 
 .title-style-1 {
