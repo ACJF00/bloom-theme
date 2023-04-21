@@ -1156,7 +1156,7 @@ body {
   font-family: var(--text-font-family);
   font-weight: var(--text-font-weight);
   font-style: var(--text-font-style);
-  color: #243e40;
+  color: var(--text-color);
   background: var(--background);
   line-height: 1.65;
 }
