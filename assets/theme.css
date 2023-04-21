@@ -11481,6 +11481,7 @@ p {
   font-size: 25px;
   text-transform: unset;
   letter-spacing: initial;
+  border: none!important;
 }
 
 .title-style-1 {
@@ -11494,8 +11495,6 @@ p {
 {
   border: none!important;
     padding: 0.6rem 5rem;
-    text-transform: unset;
-    letter-spacing: initial;
 }
 
 #section-051d91d9-3c76-4b41-881d-79bf7604ec8d .Button {
