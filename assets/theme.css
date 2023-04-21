@@ -11483,7 +11483,10 @@ p {
   letter-spacing: initial;
   border: none!important;
   padding: 0.6rem 5rem;
-  border-radius: 30px;
+}
+
+.Button::before {
+    border-radius: 30px;
 }
 
 .title-style-1 {
