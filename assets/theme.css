@@ -7799,9 +7799,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 .Footer {
-  padding: 34px 0;
-  background: var(--footer-background);
   color: var(--footer-text-color);
+}
+
+.Footer .Container {
+  background: var(--footer-background);
 }
 
 .Footer--withMargin {
@@ -11531,8 +11533,7 @@ p {
 }
 
 #svg-footer-wave {
-  position: absolute;
-  bottom: 600px;
+
 }
 
 #section-ea19e79f-7c6a-4a0e-a2ef-ec09ba24aef3 {
