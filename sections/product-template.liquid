@@ -56,32 +56,32 @@
     {%- assign initial_media_index = 0 -%}
     {%- assign media_count = 0 -%}
 
-        <div class="product-images-container">
-      <div class="image">
+    <div class="product-images-container">
+      <div class="product-image" id="product-img-1">
         <img
           src="https://cdn.shopify.com/s/files/1/0034/6610/0806/products/cream-soda-main.png?v=1661437690&width=600"
           alt=""
         />
       </div>
-      <div class="image">
+      <div class="product-image" id="product-img-2">
         <img
           src="https://cdn.shopify.com/s/files/1/0034/6610/0806/products/cream-soda-main.png?v=1661437690&width=600"
           alt=""
         />
       </div>
-      <div class="image">
+      <div class="product-image" id="product-img-3">
         <img
           src="https://cdn.shopify.com/s/files/1/0034/6610/0806/products/cream-soda-main.png?v=1661437690&width=600"
           alt=""
         />
       </div>
-      <div class="image">
+      <div class="product-image" id="product-img-4">
         <img
           src="https://cdn.shopify.com/s/files/1/0034/6610/0806/products/cream-soda-main.png?v=1661437690&width=600"
           alt=""
         />
       </div>
-      <div class="image">
+      <div class="product-image" id="product-img-5">
         <img
           src="https://cdn.shopify.com/s/files/1/0034/6610/0806/products/cream-soda-main.png?v=1661437690&width=600"
           alt=""
@@ -505,20 +505,28 @@ This is the root container for the zoom functionality. Must not be removed, as o
 {% endschema %}
 
       <style>
-        .product-images-container {
+.product-images-container {
   display: flex;
   flex-wrap: wrap;
+  max-width: 500px;
 }
 
-.image {
-  width: 50%;
-  max-width: 100px;
-  padding: 0.5rem;
+.product-image {
+  width: 43%;
   box-sizing: border-box;
+  background-color: green;
+  margin: 1rem;
+  padding: 2rem 5rem;
+  border-radius: 30px;
 }
 
-.image img {
+.product-image img {
   width: 100%;
   height: auto;
 }
+
+#product-img-1 {
+  width: 100%;
+}
+
       </style>
