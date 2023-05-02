@@ -508,16 +508,18 @@ This is the root container for the zoom functionality. Must not be removed, as o
 .product-images-container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 500px;
+  justify-content: space-between;
 }
 
 .product-image {
-  width: 43%;
+  width: 49%;
   box-sizing: border-box;
   background-color: green;
   margin: 1rem;
   padding: 2rem 5rem;
   border-radius: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .product-image img {
@@ -528,5 +530,6 @@ This is the root container for the zoom functionality. Must not be removed, as o
 #product-img-1 {
   width: 100%;
 }
+
 
       </style>
