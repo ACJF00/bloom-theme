@@ -548,3 +548,16 @@ This is the root container for the zoom functionality. Must not be removed, as o
 
 
       </style>
+
+      <script>
+const thumbnails = document.querySelectorAll('.thumbnail');
+
+thumbnails.forEach((thumbnail) => {
+  thumbnail.addEventListener('click', (event) => {
+    event.preventDefault();
+    const variantImage = event.currentTarget.getAttribute('data-variant-image');
+    const productImage = document.getElementById('variant-image');
+    productImage.setAttribute('src', variantImage);
+  });
+});
+</script>
