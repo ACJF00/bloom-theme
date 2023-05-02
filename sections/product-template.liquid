@@ -64,6 +64,10 @@
   <img src="{{ product.selected_or_first_available_variant.image | product_img_url: 'grande' }}" alt="{{ product.selected_or_first_available_variant.title }}" id="variant-image">
 </div>
 
+    <h1>VARIANT</h1>
+
+    {{ product.variants }}
+
     <div class="product-images-container">
       <div class="product-image" id="product-img-1">
         <img
