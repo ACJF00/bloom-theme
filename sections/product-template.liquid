@@ -64,10 +64,6 @@
   <img src="{{ product.selected_or_first_available_variant.image | product_img_url: 'grande' }}" alt="{{ product.selected_or_first_available_variant.title }}" id="variant-image">
 </div>
 
-    {%- if product.selected_variant and media.id == product.selected_variant.featured_media.id -%}
-          {%- assign initial_media_index = media_count -%}
-          {%- assign initial_media_id = media.id -%}
-        {%- endif -%}
 
     <h1>VARIANT</h1>
 
@@ -552,7 +548,7 @@ This is the root container for the zoom functionality. Must not be removed, as o
 
       </style>
 
-<script>
+{% javascript %}
   const variantSelects = document.querySelectorAll('.variant_select');
   const productImage = document.getElementById('variant-image');
 
@@ -564,4 +560,4 @@ This is the root container for the zoom functionality. Must not be removed, as o
       productImage.setAttribute('src', variantImage);
     });
   });
-</script>
+{% endjavascript %}
