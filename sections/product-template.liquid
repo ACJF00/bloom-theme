@@ -56,14 +56,12 @@
     {%- assign initial_media_index = 0 -%}
     {%- assign media_count = 0 -%}
 
-<select id="variant-select">
-  {% for variant in product.variants %}
-    <option value="{{ variant.id }}" data-variant-image="{{ variant.image | image_url: width: 500 }}">{{ variant.title }}</option>
-  {% endfor %}
-</select>
+<div class="product_form" data-section-type="product-form" data-product-id="{{ product.id }}">
+  {{ form | product_form }}
+</div>
 
 <div class="product_image">
-    <img src="{{ product.selected_or_first_available_variant.image | product_img_url: 'grande' }}" alt="{{ product.selected_or_first_available_variant.title }}" id="variant-image">
+  <img src="{{ product.selected_or_first_available_variant.image | product_img_url: 'grande' }}" alt="{{ product.selected_or_first_available_variant.title }}" id="variant-image">
 </div>
 
     <div class="product-images-container">
@@ -546,12 +544,12 @@ This is the root container for the zoom functionality. Must not be removed, as o
       </style>
 
 <script>
-const variantSelect = document.getElementById('variant-select');
+const productForm = document.querySelector('[data-section-type="product-form"]');
 const productImage = document.getElementById('variant-image');
 
-variantSelect.addEventListener('change', () => {
-  const selectedVariant = variantSelect.options[variantSelect.selectedIndex];
-  const variantImage = selectedVariant.getAttribute('data-variant-image');
+productForm.addEventListener('variantChange', (event) => {
+  const variant = event.detail.variant;
+  const variantImage = variant.featured_image.src;
   productImage.setAttribute('src', variantImage);
 });
 </script>
