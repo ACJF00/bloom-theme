@@ -56,18 +56,18 @@
     {%- assign initial_media_index = 0 -%}
     {%- assign media_count = 0 -%}
 
-    <div class="product_thumbnails">
+<div class="product_thumbnails">
 {% for variant in product.variants %}
-            <a href="{{ variant.url }}">
-              <div class="h-[50px] w-[50px] bg-[#E6ECEB] rounded shrink-0 p-1">
-          
-                {{ variant.image | image_url: width: 50 | image_tag }}
-  
-  
-                  </div>
-            </a>
-            
-        {% endfor %}
+    <a href="{{ variant.url }}" class="thumbnail" data-variant-image="{{ variant.image | image_url: width: 500 }}">
+        <div class="h-[50px] w-[50px] bg-[#E6ECEB] rounded shrink-0 p-1">
+            {{ variant.image | image_url: width: 50 | image_tag }}
+        </div>
+    </a>
+{% endfor %}
+</div>
+
+<div class="product_image">
+    <img src="{{ product.selected_or_first_available_variant.image | product_img_url: 'grande' }}" alt="{{ product.selected_or_first_available_variant.title }}" id="variant-image">
 </div>
 
     <div class="product-images-container">
