@@ -56,6 +56,20 @@
     {%- assign initial_media_index = 0 -%}
     {%- assign media_count = 0 -%}
 
+    <div class="product_thumbnails">
+{% for variant in product.variants %}
+            <a href="{{ variant.url }}">
+              <div class="h-[50px] w-[50px] bg-[#E6ECEB] rounded shrink-0 p-1">
+          
+                {{ variant.image | image_url: width: 50 | image_tag }}
+  
+  
+                  </div>
+            </a>
+            
+        {% endfor %}
+</div>
+
     <div class="product-images-container">
       <div class="product-image" id="product-img-1">
         <img
