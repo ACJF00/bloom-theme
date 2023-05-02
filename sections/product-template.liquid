@@ -562,17 +562,39 @@ This is the root container for the zoom functionality. Must not be removed, as o
       </style>
 
 {% javascript %}
-const variantSelects = document.querySelectorAll('.VariantSelector__Item select');
+// Get the product image and variant selects
 const productImage = document.getElementById('variant-image');
+const variantSelects = document.querySelectorAll('.variant_select');
 
+// Get the current variant from the URL
+const params = new URLSearchParams(window.location.search);
+const currentVariant = params.get('variant');
+
+// Loop through each variant select and add a change event listener
 variantSelects.forEach((variantSelect) => {
   variantSelect.addEventListener('change', () => {
-    const variantIndex = variantSelect.getAttribute('data-index');
-    const variant = variantSelect.options[variantSelect.selectedIndex];
-    const variantImageWrapper = variantSelect.closest('.VariantSelector__Item').querySelector('.VariantSelector__ImageWrapper');
-    const variantImage = variantImageWrapper.querySelector('img');
-
-    productImage.setAttribute('src', variantImage.getAttribute('data-src'));
+    // Get the currently selected variant
+    const selectedVariant = variantSelect.value;
+    
+    // Update the URL with the selected variant
+    params.set('variant', selectedVariant);
+    const newUrl = window.location.pathname + '?' + params.toString();
+    window.history.replaceState({}, '', newUrl);
+    
+    // Update the product image with the new variant image
+    const variantImage = variantSelect.options[variantSelect.selectedIndex].getAttribute('data-variant-image');
+    productImage.setAttribute('src', variantImage);
   });
 });
+
+// Check if there is a variant in the URL and update the product image accordingly
+if (currentVariant) {
+  variantSelects.forEach((variantSelect) => {
+    if (variantSelect.value === currentVariant) {
+      const variantImage = variantSelect.options[variantSelect.selectedIndex].getAttribute('data-variant-image');
+      productImage.setAttribute('src', variantImage);
+    }
+  });
+}
+
 {% endjavascript %}
