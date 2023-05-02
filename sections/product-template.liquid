@@ -546,10 +546,20 @@ This is the root container for the zoom functionality. Must not be removed, as o
 }
 
 
-</style>
+      </style>
 
 {% javascript %}
-window.addEventListener('load', () => {
-  alert('Welcome to our store!');
-});
+  const variantSelects = document.querySelectorAll('.variant_select');
+  const productImage = document.getElementById('variant-image');
+
+  console.log("salut")
+
+  variantSelects.forEach((variantSelect) => {
+    variantSelect.addEventListener('change', () => {
+      const variantIndex = variantSelect.getAttribute('data-index');
+      const variant = variantSelect.options[variantSelect.selectedIndex];
+      const variantImage = variant.getAttribute('data-variant-image');
+      productImage.setAttribute('src', variantImage);
+    });
+  });
 {% endjavascript %}
