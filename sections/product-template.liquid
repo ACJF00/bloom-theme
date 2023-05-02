@@ -64,6 +64,11 @@
   <img src="{{ product.selected_or_first_available_variant.image | product_img_url: 'grande' }}" alt="{{ product.selected_or_first_available_variant.title }}" id="variant-image">
 </div>
 
+    {%- if product.selected_variant and media.id == product.selected_variant.featured_media.id -%}
+          {%- assign initial_media_index = media_count -%}
+          {%- assign initial_media_id = media.id -%}
+        {%- endif -%}
+
     <h1>VARIANT</h1>
 
   <p>{{ product.selected_or_first_available_variant.image }}</p>
