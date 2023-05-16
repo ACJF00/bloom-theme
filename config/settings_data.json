@@ -706,12 +706,12 @@
           "051d91d9-3c76-4b41-881d-79bf7604ec8d-167948554729725147-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banniere-suncatchers-desktop2.png",
-              "mobile_image": "shopify:\/\/shop_images\/banniere-mobile-suncatcher3_817602f1-4672-4753-bf73-b53b1a8959fb.png",
+              "image": "shopify:\/\/shop_images\/sweet-sand-desktop.png",
+              "mobile_image": "shopify:\/\/shop_images\/sweet-sand-mobile.png",
               "apply_overlay": false,
               "content_position": "bottomLeft",
-              "subheading": "Suncatchers",
-              "title": "Laisse entrer la lumière et la magie avec nos suncatchers",
+              "subheading": "Sweet Sand",
+              "title": "Le premier encens à la poudre de fruit",
               "button_1_text": "Découvrir",
               "button_1_link": "shopify:\/\/products\/suncatchers-bloom-x-atelier-intuitive",
               "button_2_text": "",
@@ -742,8 +742,8 @@
           "693fcf00-f730-4d47-9867-6de5622a86cd-16794961361fa8c835-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banniere-principale-desktop.png",
-              "mobile_image": "shopify:\/\/shop_images\/banniere-principale-mobile_1b9d651d-c16a-4162-be1b-b52d2abbb829.png",
+              "image": "shopify:\/\/shop_images\/banniere-principale-desktop2_e2cb23c1-c216-45a7-8588-22a5df447719.png",
+              "mobile_image": "shopify:\/\/shop_images\/banniere-principale-mobile_84b09536-4b5b-4ef7-9437-abd808a70f06.png",
               "apply_overlay": false,
               "content_position": "middleLeft",
               "subheading": "Made in France, Naturel, Artisanal",
@@ -883,7 +883,7 @@
         "type": "dg-slider",
         "settings": {
           "image_width": "1900x",
-          "image1": "shopify:\/\/shop_images\/coffrets-detoures_0003_DSC08975.png",
+          "image1": "shopify:\/\/shop_images\/nouvelle-gamme-detouree_0002_DSC02697.png",
           "slider1_call_to_action": "",
           "slider1_call_to_action_text": "",
           "image2": "shopify:\/\/shop_images\/coffrets-detoures_0001_DSC08984.png",
